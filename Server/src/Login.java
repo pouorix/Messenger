@@ -6,6 +6,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.scene.text.Text;
 
+import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
@@ -21,7 +22,8 @@ public class Login implements Initializable {
     Text passwordisincorrect;
     @FXML
     Text usernameisincorrect;
-
+    @FXML
+    Button back;
 
 
     @Override
@@ -32,10 +34,11 @@ public class Login implements Initializable {
             String password=txtfpassword.getText();
             try {
                 PersonDB personDB=new PersonDB();
+
                 if(personDB.getPerson(username).isEmpty())
                     usernameisincorrect.setText("Username is incorrect");
                 else {
-                    if (personDB.getPerson(username).get(3) != password) {
+                    if (!(personDB.getPerson(username).get(3) .equals(password))) {
                         passwordisincorrect.setText("Password is incorrect");
                     }
                     else
@@ -46,7 +49,14 @@ public class Login implements Initializable {
             }
 
         });
+        back.setOnAction(event -> {
+            try {
+                Server.stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("Menu.fxml"))));
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
 
+        });
 
 
     }

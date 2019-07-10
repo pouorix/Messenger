@@ -27,23 +27,35 @@ public class Signup implements Initializable {
     Button register;
     @FXML
     Text status;
+    @FXML
+    Button back;
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         register.setOnAction(event -> {
-            String fisrtname=txtffirstname.getText();
-            String lastname=txtflastname.getText();
-            String username=txtfusername.getText();
-            String password=txtfpassword.getText();
-            String email=txtfemail.getText();
-            String phonenumber=txtfphonenumber.getText();
-            Person person=new Person(fisrtname,lastname,username,password,email,phonenumber);
+            String fisrtname = txtffirstname.getText();
+            String lastname = txtflastname.getText();
+            String username = txtfusername.getText();
+            String password = txtfpassword.getText();
+            String email = txtfemail.getText();
+            String phonenumber = txtfphonenumber.getText();
+            Person person = new Person(fisrtname, lastname, username, password, email, phonenumber);
             try {
-                PersonDB personDB=new PersonDB();
+                PersonDB personDB = new PersonDB();
                 personDB.addPerson(person);
 
 
             } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+        });
+
+
+        back.setOnAction(event -> {
+            try {
+                Server.stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("Menu.fxml"))));
+            } catch (IOException e) {
                 e.printStackTrace();
             }
 

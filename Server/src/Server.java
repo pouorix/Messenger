@@ -31,7 +31,7 @@ public class Server extends Application {
     public void start(Stage Stage) throws Exception {
         stage=Stage;
         Parent root = FXMLLoader.load(getClass().getResource("Menu.fxml"));
-        Stage.setScene(new Scene(root,850,850));
+        Stage.setScene(new Scene(root,400,600));
         Stage.setTitle("Messenger");
         stage.alwaysOnTopProperty();
         Stage.show();
