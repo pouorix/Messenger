@@ -11,7 +11,7 @@ import java.net.URL;
 import java.util.ResourceBundle;
 
 public class Login implements Initializable {
-
+public static String username;
     @FXML
     TextField txtfusername;
     @FXML
@@ -30,7 +30,7 @@ public class Login implements Initializable {
     public void initialize(URL location, ResourceBundle resources) {
 
         login.setOnAction(event -> {
-            String username=txtfusername.getText();
+            username=txtfusername.getText();
             String password=txtfpassword.getText();
             try {
                 PersonDB personDB=new PersonDB();
@@ -42,7 +42,7 @@ public class Login implements Initializable {
                         passwordisincorrect.setText("Password is incorrect");
                     }
                     else
-                        Server.stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("Menu.fxml"))));
+                        Server.stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("SearchANDHistory.fxml"))));
                 }
             } catch (Exception e) {
                 e.printStackTrace();

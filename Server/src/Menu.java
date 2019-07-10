@@ -15,7 +15,6 @@ public class Menu implements Initializable {
         Button Loginbtn;
         @FXML
         Button Signupbtn;
-        @FXML Button btnok;
         @FXML Text txt;
 
     @Override

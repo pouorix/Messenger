@@ -25,13 +25,15 @@ public class PersonDB {
         preparedStatement.executeUpdate();
     }
 //
-//    public  void getPersons() throws Exception{
-//        preparedStatement = connection.prepareStatement("select * from person");
-//        ResultSet resultSet = preparedStatement.executeQuery();
-//        while (resultSet.next()){
-//            System.out.println(resultSet.getString("username"));
-//        }
-//    }
+    public  ArrayList<String> getPersonsusername() throws Exception{
+        preparedStatement = connection.prepareStatement("select username from persons");
+        ResultSet resultSet = preparedStatement.executeQuery();
+        ArrayList<String> usernames=new ArrayList<>();
+        while (resultSet.next()){
+            usernames.add(resultSet.getString("username"));
+        }
+        return usernames;
+    }
 
     public ArrayList<String>getPerson(String username) throws Exception{
         preparedStatement = connection.prepareStatement("select * from persons where username = ?");
@@ -49,18 +51,60 @@ public class PersonDB {
     return info;
     }
 
-//    public void changePass(Person person, String newPass) throws Exception{
-//        preparedStatement = connection.prepareStatement("update person set pass = ? where username = ?");
-//        preparedStatement.setString(1, newPass);
-//        preparedStatement.setString(2,person.getUsername());
-//        preparedStatement.executeUpdate();
-//    }
+    public void changePass(String username, String newPass) throws Exception{
+        preparedStatement = connection.prepareStatement("update persons set password = ? where username = ?");
+        preparedStatement.setString(1, newPass);
+        preparedStatement.setString(2,username);
+        preparedStatement.executeUpdate();
+    }
+
+
+    public void changeFirstname(String username, String newFirstname) throws Exception{
+        preparedStatement = connection.prepareStatement("update persons set firstname = ? where username = ?");
+        preparedStatement.setString(1, newFirstname);
+        preparedStatement.setString(2,username);
+        preparedStatement.executeUpdate();
+    }
+
+    public void changeLastname(String username, String newLastname) throws Exception{
+        preparedStatement = connection.prepareStatement("update persons set lastname = ? where username = ?");
+        preparedStatement.setString(1, newLastname);
+        preparedStatement.setString(2,username);
+        preparedStatement.executeUpdate();
+
+    }
+
+    public void changeUsername(String username, String newUsername) throws Exception{
+        preparedStatement = connection.prepareStatement("update persons set username = ? where username = ?");
+        preparedStatement.setString(1, newUsername);
+        preparedStatement.setString(2,username);
+        preparedStatement.executeUpdate();
+    }
+
+
+    public void changeEmail(String username, String newEmail) throws Exception{
+        preparedStatement = connection.prepareStatement("update persons set email = ? where username = ?");
+        preparedStatement.setString(1, newEmail);
+        preparedStatement.setString(2,username);
+        preparedStatement.executeUpdate();
+    }
+
+
+    public void changePhonenumber(String username, String newpn) throws Exception{
+        preparedStatement = connection.prepareStatement("update persons set phonenumber = ? where username = ?");
+        preparedStatement.setString(1, newpn);
+        preparedStatement.setString(2,username);
+        preparedStatement.executeUpdate();
+    }
+
+
+
 //
-//    public void deletePerson(String username) throws Exception{
-//        preparedStatement = connection.prepareStatement("delete from person where username = ?");
-//        preparedStatement.setString(1, username);
-//        preparedStatement.executeUpdate();
-//    }
+    public void deletePerson(String username) throws Exception{
+        preparedStatement = connection.prepareStatement("delete from persons where username = ?");
+        preparedStatement.setString(1, username);
+        preparedStatement.executeUpdate();
+    }
 //
     public void close() throws Exception{
         preparedStatement.close();

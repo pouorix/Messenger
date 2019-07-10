@@ -43,6 +43,7 @@ public class Signup implements Initializable {
             try {
                 PersonDB personDB = new PersonDB();
                 personDB.addPerson(person);
+                Server.stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("Menu.fxml"))));
 
 
             } catch (Exception e) {
