@@ -7,7 +7,7 @@ public class Client {
     public static void main(String[] args) throws IOException {
 
 
-        Socket socket = new Socket("localhost",8081);
+        Socket socket = new Socket("localhost",8080);
         DataOutputStream dataOutput=new DataOutputStream(socket.getOutputStream());
         DataInputStream dataInput=new DataInputStream(socket.getInputStream());
         while(true)
