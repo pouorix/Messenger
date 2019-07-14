@@ -5,6 +5,7 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
+import sun.rmi.runtime.Log;
 
 import java.io.IOException;
 import java.net.URL;
@@ -28,7 +29,7 @@ public class Chatroom implements Initializable {
 
         info.setOnAction(event -> {
             try {
-                Server.stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("ouserinfo.fxml"))));
+                Client.stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("ouserinfo.fxml"))));
 
             } catch (IOException e) {
                 e.printStackTrace();
@@ -42,9 +43,9 @@ send.setOnAction(event -> {
 
         try {
             pm=pminput.getText();
-            Server.dataOutput.writeUTF(Login.username + ": "+  pm+"\n");
-//            pms.setText(pm);
-//            pms.setText(pm +"\n");
+            Client.dataOutput.writeUTF(Login.username +": "+ pm+"\n");
+
+//            pms.setText("You : " + pm +"\n");
             pms.appendText("You : " + pm + "\n");
         } catch (IOException e) {
             e.printStackTrace();
@@ -53,14 +54,14 @@ send.setOnAction(event -> {
 
 
 
-});
 
+});
 
         new Thread(()->{
             try {
                 pm=pminput.getText();
-//                pms.setText(Server.dataInput.readUTF()+"\n");
-                pms.appendText(Server.dataInput.readUTF());
+//                pms.setText(Client.dataInput.readUTF()+"\n");
+                pms.appendText(Client.dataInput.readUTF());
             } catch (IOException e) {
                 e.printStackTrace();
             }

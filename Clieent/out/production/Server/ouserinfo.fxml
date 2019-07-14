@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ouserinfo">
+   <children>
+      <Text layoutX="54.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username : " />
+      <Text layoutX="55.0" layoutY="110.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Firstname :" />
+      <Text layoutX="54.0" layoutY="155.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lastname : " />
+      <Text layoutX="66.0" layoutY="205.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email : " />
+      <Text layoutX="46.0" layoutY="242.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PhoneNumber" />
+      <Text fx:id="username" layoutX="165.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text fx:id="firstname" layoutX="165.0" layoutY="110.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text fx:id="lastname" layoutX="165.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text fx:id="email" layoutX="165.0" layoutY="205.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text fx:id="phonenumber" layoutX="165.0" layoutY="251.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Button fx:id="back" layoutX="476.0" layoutY="26.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="90.0" text="&lt;--" />
+   </children>
+</AnchorPane>

@@ -10,6 +10,7 @@ public class Client {
         Socket socket = new Socket("localhost",8081);
         DataOutputStream dataOutput=new DataOutputStream(socket.getOutputStream());
         DataInputStream dataInput=new DataInputStream(socket.getInputStream());
+
         while(true)
             System.out.println(dataInput.readUTF());
     }

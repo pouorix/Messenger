@@ -12,14 +12,14 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.Scanner;
 
-public class Server extends Application {
+public class Client extends Application {
     public static DataInputStream dataInput;
     public static DataOutputStream dataOutput;
 
     static Stage stage;
     public static void main(String[] args) throws IOException {
-        ServerSocket serversocket = new ServerSocket(8081);
-        Socket socket=serversocket.accept();
+        Socket socket = new Socket("localhost",8081);
+       // Socket socket=serversocket.accept();
         dataOutput=new DataOutputStream(socket.getOutputStream());
         dataInput=new DataInputStream(socket.getInputStream());
          launch();
@@ -35,7 +35,7 @@ public class Server extends Application {
         stage=Stage;
         Parent root = FXMLLoader.load(getClass().getResource("Menu.fxml"));
         Stage.setScene(new Scene(root,400,600));
-        Stage.setTitle("Server");
+        Stage.setTitle("Client");
         stage.alwaysOnTopProperty();
         Stage.show();
     }

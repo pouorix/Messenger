@@ -2,15 +2,63 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80814fcd-d0d0-4aa3-bc23-e1d0ac7d19df" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/916a2ae9-1c30-496c-b2b5-a1817c49d8c0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/916a2ae9-1c30-496c-b2b5-a1817c49d8c0/storage_v2/_src_/database/postgres.edMnLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/916a2ae9-1c30-496c-b2b5-a1817c49d8c0/storage_v2/_src_/database/postgres.edMnLQ/schema/messenger.E7tmqg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/916a2ae9-1c30-496c-b2b5-a1817c49d8c0/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/postgresql-42.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Server/Chatroom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Server/Chatroom.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Server/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Server/Login.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Server/Login.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Server/Menu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Server/Menu.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Server/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Server/PersonDB.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Server/SearchANDHistory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Server/SearchANDHistory.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Server/Setting.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Server/Signup.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Server/Signup.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Server/ouserinfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Server/ouserinfo.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Server/setting.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chatroom.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chatroom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Login.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Menu.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PersonDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SearchANDHistory.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SearchANDHistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Setting.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Signup.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Signup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ouserinfo.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ouserinfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/setting.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Client/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client/out/production/Client/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/out/production/Client/Client.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client/src/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Server/Chatroom.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/Chatroom.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Server/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/Server.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chatroom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chatroom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/out/production/Server/Chatroom.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/out/production/Server/Chatroom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/out/production/Server/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/out/production/Server/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/src/Chatroom.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/Chatroom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/src/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/Server.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -87,18 +135,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/PersonDB.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SearchANDHistory.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
@@ -123,10 +159,20 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Chatroom.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Signup.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="432">
-              <caret line="34" column="15" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
+              <caret line="33" column="15" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -138,7 +184,7 @@
         <entry file="file://$PROJECT_DIR$/src/setting.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1800">
-              <caret line="109" column="52" selection-start-line="109" selection-start-column="52" selection-end-line="109" selection-end-column="52" />
+              <caret line="108" column="52" selection-start-line="108" selection-start-column="52" selection-end-line="108" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -149,8 +195,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Chatroom.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="515">
-              <caret line="56" selection-start-line="56" selection-end-line="56" />
+            <state relative-caret-position="438">
+              <caret line="54" selection-start-line="54" selection-end-line="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -159,10 +205,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Server.java">
+        <entry file="file://$PROJECT_DIR$/src/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+            <state relative-caret-position="180">
+              <caret line="22" column="58" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -233,6 +279,7 @@
         <option value="$PROJECT_DIR$/src/SearchANDHistory.java" />
         <option value="$PROJECT_DIR$/src/ouserinfo.java" />
         <option value="$PROJECT_DIR$/src/Server.java" />
+        <option value="$PROJECT_DIR$/src/Client.java" />
         <option value="$PROJECT_DIR$/src/Chatroom.java" />
       </list>
     </option>
@@ -254,23 +301,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Server" type="462c0819:PsiDirectoryNode" />
+              <item name="Clieent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Clieent" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Server" type="462c0819:PsiDirectoryNode" />
+              <item name="Clieent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Clieent" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -280,7 +327,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Clieent" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -304,8 +351,8 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Server" />
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Client" />
       <module name="Server" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -313,7 +360,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Server" />
+        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -338,14 +385,16 @@
       <workItem from="1562686009747" duration="2260000" />
       <workItem from="1562752008538" duration="15467000" />
       <workItem from="1562776034046" duration="226000" />
-      <workItem from="1562991293591" duration="10557000" />
-      <workItem from="1563045915351" duration="244000" />
-      <workItem from="1563046234236" duration="142000" />
+      <workItem from="1562991293591" duration="6250000" />
+      <workItem from="1563011509252" duration="3981000" />
+      <workItem from="1563045941286" duration="211000" />
+      <workItem from="1563046249835" duration="131000" />
+      <workItem from="1563048981712" duration="196000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55018000" />
+    <option name="totallyTimeSpent" value="54844000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -357,10 +406,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.018123668" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30087528" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -369,8 +417,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" weight="0.26218852" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934355" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" weight="0.26477024" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
@@ -389,7 +437,7 @@
       <window_info anchor="right" id="Maven" order="5" weight="0.32928804" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" weight="0.15207878" />
+      <window_info anchor="right" id="Database" order="8" weight="0.60065645" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -495,14 +543,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chatroom.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Setting.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
@@ -521,7 +561,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://916a2ae9-1c30-496c-b2b5-a1817c49d8c0/database/postgres/schema/public/table/persons" />
     <entry file="file://$PROJECT_DIR$/src/PersonDB.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -532,6 +571,7 @@
         </state>
       </provider>
     </entry>
+    <entry file="das://916a2ae9-1c30-496c-b2b5-a1817c49d8c0/database/postgres/schema/public/table/persons" />
     <entry file="file://$PROJECT_DIR$/src/SearchANDHistory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -552,10 +592,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chatroom.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Signup.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
-          <caret line="34" column="15" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
+          <caret line="33" column="15" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -565,17 +613,17 @@
     <entry file="file://$PROJECT_DIR$/src/setting.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1800">
-          <caret line="109" column="52" selection-start-line="109" selection-start-column="52" selection-end-line="109" selection-end-column="52" />
+          <caret line="108" column="52" selection-start-line="108" selection-start-column="52" selection-end-line="108" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Server.java">
+    <entry file="file://$PROJECT_DIR$/src/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+        <state relative-caret-position="180">
+          <caret line="22" column="58" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -602,8 +650,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Chatroom.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        <state relative-caret-position="438">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
