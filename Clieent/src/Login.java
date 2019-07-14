@@ -12,6 +12,7 @@ import java.util.ResourceBundle;
 
 public class Login implements Initializable {
 public static String username;
+public static String opusername;
     @FXML
     TextField txtfusername;
     @FXML
@@ -42,7 +43,11 @@ public static String username;
                         passwordisincorrect.setText("Password is incorrect");
                     }
                     else
+                        Client.dataOutput.writeUTF(username);
                         Client.stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("SearchANDHistory.fxml"))));
+                        opusername=Client.dataInput.readUTF();
+                    System.out.println(opusername);
+
                 }
             } catch (Exception e) {
                 e.printStackTrace();

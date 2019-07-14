@@ -11,6 +11,8 @@ import java.net.URL;
 import java.util.ResourceBundle;
 
 public class SearchANDHistory implements Initializable {
+
+    public static String opsearchusername;
     @FXML
     TextField userinput;
     @FXML
@@ -49,7 +51,10 @@ public class SearchANDHistory implements Initializable {
                         status.setText("Username  Found !");
                         boolian = 1;
                         Thread.sleep(1000);
+                        opsearchusername=Client.dataInput.readUTF();
+                        Client.dataOutput.writeUTF(username);
                         Client.stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("Chatroom.fxml"))));
+
                     }
                 }
                 if(boolian==0)

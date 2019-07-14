@@ -21,11 +21,45 @@ public class Chatroom implements Initializable {
     Button send;
     @FXML
     Button info;
-
+    @FXML
+    Button back;
+    // public static pmsDB
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
+        //  pmsDB pmsdb=null;
+        try {
+            pmsDB pmsdb=new pmsDB();
 
+            send.setOnAction(event -> {
+
+
+                new Thread(()->{
+
+                    try {
+                        pm=pminput.getText();
+                        pmsdb.addpm(Login.username,SearchANDHistory.username,pm);
+                        Client.dataOutput.writeUTF(Login.username + ": "+  pm+"\n");
+//            pms.setText(pm);
+//            pms.setText(pm +"\n");
+                        pms.appendText("You : " + pm + "\n");
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+                }).start();
+
+
+
+            });
+
+
+
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
         info.setOnAction(event -> {
             try {
@@ -36,32 +70,24 @@ public class Chatroom implements Initializable {
             }
         });
 
-send.setOnAction(event -> {
+        info.setOnAction(event -> {
+            try {
+                Client.stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("ouserinfo.fxml"))));
 
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        });
 
-    new Thread(()->{
-
-        try {
-            pm=pminput.getText();
-            Client.dataOutput.writeUTF(Login.username +": "+ pm+"\n");
-
-//            pms.setText("You : " + pm +"\n");
-            pms.appendText("You : " + pm + "\n");
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }).start();
-
-
-
-
-});
 
         new Thread(()->{
             try {
-                pm=pminput.getText();
+                while (true) {
+                    //   pm=pminput.getText();
 //                pms.setText(Client.dataInput.readUTF()+"\n");
-                pms.appendText(Client.dataInput.readUTF());
+                    if(Login.opusername.equals(SearchANDHistory.username) && Login.username.equals(SearchANDHistory.opsearchusername))
+                         pms.appendText(Client.dataInput.readUTF());
+                }
             } catch (IOException e) {
                 e.printStackTrace();
             }

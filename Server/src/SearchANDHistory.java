@@ -21,6 +21,7 @@ public class SearchANDHistory implements Initializable {
     Button setting;
 
     public static String username;
+    public static String opsearchusername;
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         setting.setOnAction(event -> {
@@ -49,7 +50,10 @@ public class SearchANDHistory implements Initializable {
                         status.setText("Username  Found !");
                         boolian = 1;
                         Thread.sleep(1000);
+                        Server.dataOutput.writeUTF(username);
+                        opsearchusername=Server.dataInput.readUTF();
                         Server.stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("Chatroom.fxml"))));
+
                     }
                 }
                 if(boolian==0)
