@@ -21,6 +21,10 @@ public class SearchANDHistory implements Initializable {
     Text status;
     @FXML
     Button setting;
+    @FXML
+    TextField history;
+    @FXML
+    Button nexthistory;
 
     public static String username;
     @Override

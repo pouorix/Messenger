@@ -19,6 +19,8 @@ public class SearchANDHistory implements Initializable {
     Text status;
     @FXML
     Button setting;
+    @FXML
+    TextField
 
     public static String username;
     public static String opsearchusername;

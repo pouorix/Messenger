@@ -8,6 +8,7 @@ import javafx.scene.control.TextField;
 
 import java.io.IOException;
 import java.net.URL;
+import java.util.Date;
 import java.util.ResourceBundle;
 
 public class Chatroom implements Initializable {
@@ -28,6 +29,8 @@ public class Chatroom implements Initializable {
     @Override
     public void initialize(URL location, ResourceBundle resources) {
       //  pmsDB pmsdb=null;
+        Date date = new Date();
+        String tarikh=date.toString();
         try {
             pmsDB pmsdb=new pmsDB();
 
@@ -38,7 +41,7 @@ public class Chatroom implements Initializable {
 
                     try {
                         pm=pminput.getText();
-                        pmsdb.addpm(Login.username,SearchANDHistory.username,pm);
+                        pmsdb.addpm(Login.username,SearchANDHistory.username,pm,tarikh);
                         Server.dataOutput.writeUTF(Login.username + ": "+  pm+"\n");
 //            pms.setText(pm);
 //            pms.setText(pm +"\n");

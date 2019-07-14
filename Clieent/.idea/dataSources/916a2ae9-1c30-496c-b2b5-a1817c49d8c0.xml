@@ -9,7 +9,7 @@
       <Comment>default administrative connection database</Comment>
       <StateNumber>554</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>804</IntrospectionStateNumber>
+      <IntrospectionStateNumber>857</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
     </database>
@@ -81,7 +81,7 @@
       <Comment>standard public schema</Comment>
       <StateNumber>352</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>805</IntrospectionStateNumber>
+      <IntrospectionStateNumber>858</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
@@ -227,8 +227,8 @@
     </column>
     <column id="36" parent="24" name="date">
       <Position>5</Position>
-      <DataType>varchar(10)|0s</DataType>
-      <StateNumber>803</StateNumber>
+      <DataType>varchar(100)|0s</DataType>
+      <StateNumber>856</StateNumber>
       <TypeId>1043</TypeId>
     </column>
   </database-model>

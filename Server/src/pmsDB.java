@@ -10,12 +10,12 @@ public class pmsDB {
         connection = DriverManager.getConnection("jdbc:postgresql://localhost:1111/postgres?currentSchema=public", "postgres", "123qwe");
     }
 
-    public void addpm(String sender,String reciver , String pm) throws Exception{
-        preparedStatement = connection.prepareStatement("insert into pms values (default ,?,?,?)");
+    public void addpm(String sender,String reciver , String pm,String date) throws Exception{
+        preparedStatement = connection.prepareStatement("insert into pms values (default ,?,?,?,?)");
         preparedStatement.setString(1, sender);
         preparedStatement.setString(2,reciver);
         preparedStatement.setString(3,pm);
-      //  preparedStatement.setString(4,d);
+        preparedStatement.setString(4,date);
         preparedStatement.executeUpdate();
     }
 
