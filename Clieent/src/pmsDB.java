@@ -1,6 +1,5 @@
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
+import java.sql.*;
+import java.util.ArrayList;
 
 public class pmsDB {
     private Connection connection;
@@ -18,5 +17,31 @@ public class pmsDB {
           preparedStatement.setString(4,date);
         preparedStatement.executeUpdate();
     }
+
+    public ArrayList<String> showpm(String username1, String username2) throws SQLException {
+        preparedStatement = connection.prepareStatement("select text from pms where sender = ? AND reciver = ? ");
+        preparedStatement.setString(1,username1);
+        preparedStatement.setString(2,username2);
+        ArrayList<String > info=new ArrayList<>();
+        ResultSet resultSet = preparedStatement.executeQuery();
+        while (resultSet.next()){
+            info.add(resultSet.getString("text"));
+        }
+        return info;
+    }
+
+    public String getsender(String text) throws SQLException {
+        preparedStatement = connection.prepareStatement("select sender from pms where text = ?   ");
+        preparedStatement.setString(1, text);
+        ArrayList<String> info = new ArrayList<>();
+        ResultSet resultSet = preparedStatement.executeQuery();
+        String sender=null;
+        while (resultSet.next()) {
+            sender =  resultSet.getString("sender");
+        }
+        return sender;
+    }
+
+
 
 }

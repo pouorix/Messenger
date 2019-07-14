@@ -44,7 +44,7 @@ public static String opusername;
                     }
                     else
                         opusername=Server.dataInput.readUTF();
-                    System.out.println(opusername);
+                   // System.out.println(opusername);
                         Server.stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("SearchANDHistory.fxml"))));
                         Server.dataOutput.writeUTF(username);
                 }

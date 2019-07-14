@@ -20,10 +20,13 @@ public class SearchANDHistory implements Initializable {
     @FXML
     Button setting;
     @FXML
-    TextField
+    TextField history;
+    @FXML
+    Button nexthistory;
 
     public static String username;
     public static String opsearchusername;
+
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         setting.setOnAction(event -> {
@@ -33,6 +36,11 @@ public class SearchANDHistory implements Initializable {
                 e.printStackTrace();
             }
         });
+
+
+
+
+
         next.setOnAction(event -> {
 
             try {
