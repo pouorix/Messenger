@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.text.*?>
+<?import javafx.scene.control.MenuItem.*?>
 <?import java.lang.*?>
 <?import java.util.*?>
 <?import javafx.scene.*?>
@@ -21,5 +22,14 @@
          <font>
             <Font size="16.0" />
          </font></TextArea>
+      <MenuButton fx:id="menu" layoutX="277.0" layoutY="338.0" mnemonicParsing="false" text="❤">
+        <items>
+          <MenuItem fx:id="smile" mnemonicParsing="false" text="☺" />
+          <MenuItem fx:id="cry" mnemonicParsing="false" text="cry" />
+            <MenuItem fx:id="heart" mnemonicParsing="false" text="❤" />
+            <MenuItem fx:id="angry" mnemonicParsing="false" text="Angry" />
+            <MenuItem fx:id="fear" mnemonicParsing="false" text="Fear" />
+        </items>
+      </MenuButton>
    </children>
 </AnchorPane>

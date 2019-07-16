@@ -1,13 +1,17 @@
+import com.vdurmont.emoji.Emoji;
+import com.vdurmont.emoji.EmojiParser;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.control.Menu;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import javafx.scene.input.KeyCode;
 import javafx.scene.input.KeyEvent;
+import javafx.scene.control.MenuItem;
 
 import java.io.IOException;
 import java.net.URL;
@@ -28,14 +32,53 @@ public class Chatroom implements Initializable {
     Button back;
     @FXML
     TextArea opm;
-   // public static pmsDB
+    @FXML
+    MenuItem smile;
+    @FXML
+    MenuItem cry;
+    @FXML
+    MenuItem heart;
+    @FXML
+    MenuItem angry;
+    @FXML
+    MenuItem fear;
+
+    // public static pmsDB
+
+    String ssmile = "\uD83D\uDE02";
+    String scry = "\uD83D\uDE2D";
+    String sheart = "❤";
+    String sfear = "\uD83D\uDE31";
+    String sangry = "\uD83D\uDE21";
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-      //  pmsDB pmsdb=null;
+        //  pmsDB pmsdb=null;
+        smile.setOnAction(event -> {
+            pminput.appendText( EmojiParser.parseToUnicode(ssmile));
+        });
+
+        cry.setOnAction(event -> {
+            pminput.appendText( EmojiParser.parseToUnicode(scry));
+        });
+
+        angry.setOnAction(event -> {
+            pminput.appendText( EmojiParser.parseToUnicode(sangry));
+        });
+
+        fear.setOnAction(event -> {
+            pminput.appendText( EmojiParser.parseToUnicode(sfear));
+        });
+
+        heart.setOnAction(event -> {
+            pminput.appendText( EmojiParser.parseToUnicode(sheart));
+        });
+        System.out.println();
+
+
         Date date = new Date();
         String tarikh=date.toString();
-
+        // smile.setOnAction();
 
         try {
             pmsDB pmsdb=new pmsDB();
@@ -96,8 +139,8 @@ public class Chatroom implements Initializable {
                 }
             });
 
-            
-            
+
+
             send.setOnAction(event -> {
 
 
@@ -149,7 +192,10 @@ public class Chatroom implements Initializable {
 
         new Thread(()->{
             try {
+                lonDB londb=new lonDB();
                 while (true) {
+                   // opm.appendText("hi");
+                   // opm.appendText(Server.dataInput.readUTF());
                     //   pm=pminput.getText();
 //                mypm.setText(Server.dataInput.readUTF()+"\n");
 
@@ -157,12 +203,17 @@ public class Chatroom implements Initializable {
                     //logine man va sah un .... sah man ba logine un
 
 
-                    if (SearchANDHistory.username.equals(Login.opusername) && Login.username.equals(SearchANDHistory.opsearchusername)) {
-                        opm.appendText(Server.dataInput.readUTF());
+
+                    if (londb.showcl().equals(londb.showss()) && londb.showcs().equals(londb.showsl())) {
+
+                      opm.appendText(Server.dataInput.readUTF());
+
                         mypm.appendText("\n\n");
                     }
                 }
             } catch (IOException e) {
+                e.printStackTrace();
+            } catch (Exception e) {
                 e.printStackTrace();
             }
         }).start();

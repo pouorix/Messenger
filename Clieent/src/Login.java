@@ -43,15 +43,18 @@ public static String opusername;
                         passwordisincorrect.setText("Password is incorrect");
                     }
                     else {
-                        Client.dataOutput.writeUTF(username);
+                       // Client.dataOutput.writeUTF(username);
+                        lonDB londb=new lonDB();
+                        londb.changecl(username);
                         Client.stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("SearchANDHistory.fxml"))));
-                        new Thread(() -> {
-                            try {
-                                opusername = Client.dataInput.readUTF();
-                            } catch (IOException e) {
-                                e.printStackTrace();
-                            }
-                        }).start();
+
+//                        new Thread(() -> {
+//                            try {
+                                //opusername = Client.dataInput.readUTF();
+//                            } catch (IOException e) {
+//                                e.printStackTrace();
+//                            }
+//                        }).start();
 
                         //System.out.println(opusername);
                     }

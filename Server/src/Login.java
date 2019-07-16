@@ -44,18 +44,21 @@ public static String opusername;
                     } else {
 
 
-                        new Thread(()->{
-                            try {
-                                opusername = Server.dataInput.readUTF();
-                            } catch (IOException e) {
-                                e.printStackTrace();
-                            }
-                        }).start();
+//                        new Thread(()->{
+//                            try {
+                                lonDB londb=new lonDB();
+                                londb.changesl(username);
+
+                               // opusername = Server.dataInput.readUTF();
+//                            } catch (IOException e) {
+//                                e.printStackTrace();
+//                            }
+//                        }).start();
 
 
                         // System.out.println(opusername);
                         Server.stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("SearchANDHistory.fxml"))));
-                        Server.dataOutput.writeUTF(username);
+                      //  Server.dataOutput.writeUTF(username);
                     }
                 }
             } catch (Exception e) {

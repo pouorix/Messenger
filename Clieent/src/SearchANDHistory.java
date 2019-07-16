@@ -55,20 +55,24 @@ public class SearchANDHistory implements Initializable {
                     if (username.equals(personDB.getPersonsusername().get(i))) {
                         status.setText("Username  Found !");
                         boolian = 1;
-                        Thread.sleep(1000);
+
+                        lonDB londb=new lonDB();
+                        londb.changecs(username);
+
+                        //Thread.sleep(1000);
+
+//
+//                        new Thread(()-> {
+//                            try {
+                             //   opsearchusername = Client.dataInput.readUTF();
+//                            } catch (IOException e) {
+//                                e.printStackTrace();
+//                            }
+//                        }).start();
 
 
-                        new Thread(()-> {
-                            try {
-                                opsearchusername = Client.dataInput.readUTF();
-                            } catch (IOException e) {
-                                e.printStackTrace();
-                            }
-                        }).start();
 
-
-
-                        Client.dataOutput.writeUTF(username);
+                       // Client.dataOutput.writeUTF(username);
                         Client.stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("Chatroom.fxml"))));
 
                     }
