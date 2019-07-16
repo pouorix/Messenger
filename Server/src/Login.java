@@ -39,14 +39,24 @@ public static String opusername;
                 if(personDB.getPerson(username).isEmpty())
                     usernameisincorrect.setText("Username is incorrect");
                 else {
-                    if (!(personDB.getPerson(username).get(3) .equals(password))) {
+                    if (!(personDB.getPerson(username).get(3).equals(password))) {
                         passwordisincorrect.setText("Password is incorrect");
-                    }
-                    else
-                        opusername=Server.dataInput.readUTF();
-                   // System.out.println(opusername);
+                    } else {
+
+
+                        new Thread(()->{
+                            try {
+                                opusername = Server.dataInput.readUTF();
+                            } catch (IOException e) {
+                                e.printStackTrace();
+                            }
+                        }).start();
+
+
+                        // System.out.println(opusername);
                         Server.stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("SearchANDHistory.fxml"))));
                         Server.dataOutput.writeUTF(username);
+                    }
                 }
             } catch (Exception e) {
                 e.printStackTrace();

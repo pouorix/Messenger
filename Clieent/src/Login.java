@@ -42,12 +42,19 @@ public static String opusername;
                     if (!(personDB.getPerson(username).get(3) .equals(password))) {
                         passwordisincorrect.setText("Password is incorrect");
                     }
-                    else
+                    else {
                         Client.dataOutput.writeUTF(username);
                         Client.stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("SearchANDHistory.fxml"))));
-                        opusername=Client.dataInput.readUTF();
-                   //System.out.println(opusername);
+                        new Thread(() -> {
+                            try {
+                                opusername = Client.dataInput.readUTF();
+                            } catch (IOException e) {
+                                e.printStackTrace();
+                            }
+                        }).start();
 
+                        //System.out.println(opusername);
+                    }
                 }
             } catch (Exception e) {
                 e.printStackTrace();

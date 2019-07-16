@@ -61,7 +61,15 @@ public class SearchANDHistory implements Initializable {
                         boolian = 1;
                         Thread.sleep(1000);
                         Server.dataOutput.writeUTF(username);
-                        opsearchusername=Server.dataInput.readUTF();
+
+                        new Thread(()-> {
+                            try {
+                                opsearchusername = Server.dataInput.readUTF();
+                            } catch (IOException e) {
+                                e.printStackTrace();
+                            }
+                        }).start();
+
                         Server.stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("Chatroom.fxml"))));
 
                     }
