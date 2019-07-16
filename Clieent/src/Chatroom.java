@@ -40,19 +40,19 @@ public class Chatroom implements Initializable {
         try {
             pmsDB pmsdb=new pmsDB();
 
-            if(pmsdb.getsender(pmsdb.showpm( Login.username,SearchANDHistory.username).get(0)).equals(Login.username))
-                opm.appendText("\n\n");
-
-            if(pmsdb.getsender(pmsdb.showpm(SearchANDHistory.username, Login.username).get(0)).equals(SearchANDHistory.username))
-                mypm.appendText("\n\n");
+//            if(pmsdb.getsender(pmsdb.showpm( Login.username,SearchANDHistory.username).get(0)).equals(Login.username))
+//                opm.appendText("\n\n");
+//
+//            if(pmsdb.getsender(pmsdb.showpm(SearchANDHistory.username, Login.username).get(0)).equals(SearchANDHistory.username))
+//                mypm.appendText("\n\n");
 
 
             for (int i = 0; i <Integer.max(pmsdb.showpm(Login.username,SearchANDHistory.username).size(),pmsdb.showpm(SearchANDHistory.username,Login.username).size()); i++) {
-                if(i<=pmsdb.showpm(Login.username,SearchANDHistory.username).size()) {
+                if(i<pmsdb.showpm(Login.username,SearchANDHistory.username).size()) {
                     mypm.appendText(pmsdb.showpm(Login.username, SearchANDHistory.username).get(i) + "\n");
                     opm.appendText("\n\n");
                 }
-                if(i<=pmsdb.showpm(SearchANDHistory.username,Login.username).size()) {
+                if(i<pmsdb.showpm(SearchANDHistory.username,Login.username).size()) {
                     opm.appendText(pmsdb.showpm(SearchANDHistory.username, Login.username).get(i) + "\n");
                     mypm.appendText("\n\n");
                 }

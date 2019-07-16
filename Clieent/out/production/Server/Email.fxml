@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Email">
+    <children>
+        <TextField fx:id="email" layoutX="264.0" layoutY="175.0" />
+        <Text layoutX="52.0" layoutY="192.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter your Verfication Code : " wrappingWidth="211.869140625" />
+        <Button fx:id="next" layoutX="245.0" layoutY="269.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="83.0" text="Next" />
+        <Text fx:id="status" layoutX="316.0" layoutY="207.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="1.0" />
+    </children>
+</AnchorPane>

@@ -4,31 +4,14 @@
     <list default="true" id="80814fcd-d0d0-4aa3-bc23-e1d0ac7d19df" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Clieent/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Clieent/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Clieent/out/production/Server/Chatroom.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Clieent/out/production/Server/Chatroom.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Clieent/out/production/Server/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Clieent/out/production/Server/Login.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Clieent/out/production/Server/SearchANDHistory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Clieent/out/production/Server/SearchANDHistory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Clieent/out/production/Server/SearchANDHistory.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Clieent/out/production/Server/SearchANDHistory.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Clieent/out/production/Server/pmsDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Clieent/out/production/Server/pmsDB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Clieent/src/Chatroom.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Clieent/src/Chatroom.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Clieent/src/Chatroom.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Clieent/src/Chatroom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Clieent/src/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Clieent/src/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Clieent/src/Menu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Clieent/src/Menu.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Clieent/src/SearchANDHistory.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Clieent/src/SearchANDHistory.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Clieent/src/SearchANDHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Clieent/src/SearchANDHistory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Clieent/src/pmsDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Clieent/src/pmsDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clieent/src/Signup.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Clieent/src/Signup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Server.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Server/Chatroom.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/Chatroom.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Server/Chatroom.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/Chatroom.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Server/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/Login.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Server/SearchANDHistory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/SearchANDHistory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Server/SearchANDHistory.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/SearchANDHistory.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Server/pmsDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/pmsDB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chatroom.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chatroom.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Server/Signup.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/Signup.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Chatroom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chatroom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Menu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SearchANDHistory.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchANDHistory.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SearchANDHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchANDHistory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pmsDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pmsDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Signup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Signup.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -106,10 +89,59 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SearchANDHistory.java">
+        <entry file="file://$PROJECT_DIR$/src/Email.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="972">
-              <caret line="64" column="67" selection-start-line="64" selection-start-column="67" selection-end-line="64" selection-end-column="67" />
+            <state relative-caret-position="198">
+              <caret line="11" column="9" selection-end-line="17" />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Clieent/src/Email.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="423">
+              <caret line="112" column="17" lean-forward="true" selection-start-line="112" selection-start-column="17" selection-end-line="112" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#921#922#0" expanded="true" />
+                <element signature="e#948#949#0" expanded="true" />
+                <element signature="e#2073#2074#0" expanded="true" />
+                <element signature="e#2114#2115#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Email.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="118" column="1" selection-start-line="118" selection-start-column="1" selection-end-line="118" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/EmailAthunticator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="14" column="9" lean-forward="true" selection-end-line="17" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#380#381#0" expanded="true" />
+                <element signature="e#439#440#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Signup.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="46" column="37" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -117,14 +149,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pmsDB.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+      <file pinned="false" current-in-tab="true">
+        <entry file="das://916a2ae9-1c30-496c-b2b5-a1817c49d8c0/database/postgres/schema/public/table/pms">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state projectRestartId="521dc80b-0b1e-44a0-8367-be98c5743488">
+              <filtering>
+                <filter text="" />
+              </filtering>
+              <column-attributes>
+                <column name="ctid" enabled="false" position="-1" />
+              </column-attributes>
             </state>
           </provider>
         </entry>
@@ -142,84 +176,35 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Login.java">
+        <entry file="file://$PROJECT_DIR$/src/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+            <state relative-caret-position="216">
+              <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Person.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="21" selection-start-column="21" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Chatroom.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://916a2ae9-1c30-496c-b2b5-a1817c49d8c0/database/postgres/schema/public/table/persons">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state projectRestartId="c8fef2fb-d0d9-46fa-a7c1-104fae5af0a3">
-              <filtering>
-                <filter text="" />
-              </filtering>
-              <column-attributes>
-                <column name="ctid" enabled="false" position="-1" />
-              </column-attributes>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Chatroom.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
               <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://916a2ae9-1c30-496c-b2b5-a1817c49d8c0/database/postgres/schema/public/table/pms">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state projectRestartId="c8fef2fb-d0d9-46fa-a7c1-104fae5af0a3">
-              <filtering>
-                <filter text="" />
-              </filtering>
-              <column-attributes>
-                <column name="ctid" enabled="false" position="-1" />
-              </column-attributes>
-            </state>
-          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SearchANDHistory.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="38" selection-start-column="38" selection-end-column="38" />
             </state>
           </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
     </leaf>
@@ -268,17 +253,21 @@
         <option value="$PROJECT_DIR$/src/Setting.fxml" />
         <option value="$PROJECT_DIR$/src/setting.java" />
         <option value="$PROJECT_DIR$/src/PersonDB.java" />
-        <option value="$PROJECT_DIR$/src/Signup.java" />
         <option value="$PROJECT_DIR$/src/ouserinfo.fxml" />
         <option value="$PROJECT_DIR$/src/ouserinfo.java" />
         <option value="$PROJECT_DIR$/src/Server.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/916a2ae9-1c30-496c-b2b5-a1817c49d8c0/console_11.sql" />
-        <option value="$PROJECT_DIR$/src/SearchANDHistory.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/916a2ae9-1c30-496c-b2b5-a1817c49d8c0/console_13.sql" />
         <option value="$PROJECT_DIR$/src/Login.java" />
         <option value="$PROJECT_DIR$/src/pmsDB.java" />
         <option value="$PROJECT_DIR$/src/Chatroom.fxml" />
         <option value="$PROJECT_DIR$/src/Chatroom.java" />
+        <option value="$PROJECT_DIR$/src/SearchANDHistory.java" />
+        <option value="$PROJECT_DIR$/src/verfication.fxml" />
+        <option value="$PROJECT_DIR$/src/Email.fxml" />
+        <option value="$PROJECT_DIR$/src/EmailAthunticator.java" />
+        <option value="$PROJECT_DIR$/src/Signup.java" />
+        <option value="$PROJECT_DIR$/src/Email.java" />
       </list>
     </option>
   </component>
@@ -301,6 +290,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -317,8 +308,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -327,7 +316,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -390,11 +379,15 @@
       <workItem from="1563046234236" duration="142000" />
       <workItem from="1563084562930" duration="19476000" />
       <workItem from="1563111665956" duration="3027000" />
+      <workItem from="1563199341421" duration="142000" />
+      <workItem from="1563199806318" duration="368000" />
+      <workItem from="1563255403638" duration="633000" />
+      <workItem from="1563259805317" duration="2627000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77521000" />
+    <option name="totallyTimeSpent" value="81291000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -409,7 +402,7 @@
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21881838" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26477024" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -418,7 +411,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978678" weight="0.25820568" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978678" visible="true" weight="0.25820568" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934355" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -438,7 +431,7 @@
       <window_info anchor="right" id="Maven" order="5" weight="0.32928804" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" visible="true" weight="0.24617068" />
+      <window_info anchor="right" id="Database" order="8" visible="true" weight="0.35557988" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -497,7 +490,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/testgit.java" />
     <entry file="file://$PROJECT_DIR$/src/Signup.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="53" selection-start-line="53" selection-end-line="53" />
@@ -512,22 +504,23 @@
           </folding>
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Menu.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Setting.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Menu.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -540,37 +533,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ouserinfo.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="20" column="30" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="30" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Signup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/916a2ae9-1c30-496c-b2b5-a1817c49d8c0/console_11.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="110" selection-start-column="110" selection-end-column="110" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -592,36 +565,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Login.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
         </state>
       </provider>
-    </entry>
-    <entry file="das://916a2ae9-1c30-496c-b2b5-a1817c49d8c0/database/postgres/schema/public/table/pms">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="afbb8610-68aa-4dc3-bf31-a432640c994a">
-          <filtering>
-            <filter text="" />
-          </filtering>
-          <column-attributes>
-            <column name="ctid" enabled="false" position="-1" />
-          </column-attributes>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://916a2ae9-1c30-496c-b2b5-a1817c49d8c0/database/postgres/schema/public/table/persons">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="afbb8610-68aa-4dc3-bf31-a432640c994a">
-          <filtering>
-            <filter text="" />
-          </filtering>
-          <column-attributes>
-            <column name="ctid" enabled="false" position="-1" />
-          </column-attributes>
-        </state>
-      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PersonDB.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -633,20 +582,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="das://916a2ae9-1c30-496c-b2b5-a1817c49d8c0/database/postgres/schema/public/table/persons" />
+    <entry file="das://916a2ae9-1c30-496c-b2b5-a1817c49d8c0/database/postgres/schema/public/table/pms" />
     <entry file="file://$PROJECT_DIR$/src/SearchANDHistory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="972">
-          <caret line="64" column="67" selection-start-line="64" selection-start-column="67" selection-end-line="64" selection-end-column="67" />
+        <state relative-caret-position="317">
+          <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/setting.java">
+    <entry file="file://$PROJECT_DIR$/src/pmsDB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+        <state relative-caret-position="504">
+          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -670,49 +621,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SearchANDHistory.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
+    <entry file="file://$PROJECT_DIR$/src/Chatroom.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="38" selection-start-column="38" selection-end-column="38" />
+        <state relative-caret-position="576">
+          <caret line="46" column="32" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="das://916a2ae9-1c30-496c-b2b5-a1817c49d8c0/database/postgres/schema/public/table/pms">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="8944f300-6aa1-4070-926c-cb22c895eae9">
-          <filtering />
+    <entry file="file://$PROJECT_DIR$/src/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Chatroom.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pmsDB.java">
+    <entry file="file://$PROJECT_DIR$/src/SearchANDHistory.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+        <state>
+          <caret column="38" selection-start-column="38" selection-end-column="38" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/setting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="das://916a2ae9-1c30-496c-b2b5-a1817c49d8c0/database/postgres/schema/public/table/pms">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="c8fef2fb-d0d9-46fa-a7c1-104fae5af0a3">
-          <filtering />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://916a2ae9-1c30-496c-b2b5-a1817c49d8c0/database/postgres/schema/public/table/persons">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="c8fef2fb-d0d9-46fa-a7c1-104fae5af0a3">
+        <state projectRestartId="521dc80b-0b1e-44a0-8367-be98c5743488">
           <filtering>
             <filter text="" />
           </filtering>
@@ -721,7 +678,7 @@
     </entry>
     <entry file="das://916a2ae9-1c30-496c-b2b5-a1817c49d8c0/database/postgres/schema/public/table/persons">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="c8fef2fb-d0d9-46fa-a7c1-104fae5af0a3">
+        <state projectRestartId="521dc80b-0b1e-44a0-8367-be98c5743488">
           <filtering>
             <filter text="" />
           </filtering>
@@ -730,7 +687,7 @@
     </entry>
     <entry file="das://916a2ae9-1c30-496c-b2b5-a1817c49d8c0/database/postgres/schema/public/table/persons">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="c8fef2fb-d0d9-46fa-a7c1-104fae5af0a3">
+        <state projectRestartId="521dc80b-0b1e-44a0-8367-be98c5743488">
           <filtering>
             <filter text="" />
           </filtering>
@@ -740,27 +697,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://916a2ae9-1c30-496c-b2b5-a1817c49d8c0/database/postgres/schema/public/table/pms">
+    <entry file="das://916a2ae9-1c30-496c-b2b5-a1817c49d8c0/database/postgres/schema/public/table/persons">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="c8fef2fb-d0d9-46fa-a7c1-104fae5af0a3">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://916a2ae9-1c30-496c-b2b5-a1817c49d8c0/database/postgres/schema/public/table/pms">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="c8fef2fb-d0d9-46fa-a7c1-104fae5af0a3">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://916a2ae9-1c30-496c-b2b5-a1817c49d8c0/database/postgres/schema/public/table/pms">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="c8fef2fb-d0d9-46fa-a7c1-104fae5af0a3">
+        <state projectRestartId="521dc80b-0b1e-44a0-8367-be98c5743488">
           <filtering>
             <filter text="" />
           </filtering>
@@ -770,13 +709,168 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chatroom.java">
+    <entry file="das://916a2ae9-1c30-496c-b2b5-a1817c49d8c0/database/postgres/schema/public/table/persons">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="521dc80b-0b1e-44a0-8367-be98c5743488">
+          <filtering>
+            <filter text="" />
+          </filtering>
+          <column-attributes>
+            <column name="ctid" enabled="false" position="-1" />
+          </column-attributes>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://916a2ae9-1c30-496c-b2b5-a1817c49d8c0/database/postgres/schema/public/table/persons">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="521dc80b-0b1e-44a0-8367-be98c5743488">
+          <filtering>
+            <filter text="" />
+          </filtering>
+          <column-attributes>
+            <column name="ctid" enabled="false" position="-1" />
+          </column-attributes>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://916a2ae9-1c30-496c-b2b5-a1817c49d8c0/database/postgres/schema/public/table/persons">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="521dc80b-0b1e-44a0-8367-be98c5743488">
+          <filtering>
+            <filter text="" />
+          </filtering>
+          <column-attributes>
+            <column name="ctid" enabled="false" position="-1" />
+          </column-attributes>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://916a2ae9-1c30-496c-b2b5-a1817c49d8c0/database/postgres/schema/public/table/persons">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="521dc80b-0b1e-44a0-8367-be98c5743488">
+          <filtering>
+            <filter text="" />
+          </filtering>
+          <column-attributes>
+            <column name="ctid" enabled="false" position="-1" />
+          </column-attributes>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://916a2ae9-1c30-496c-b2b5-a1817c49d8c0/database/postgres/schema/public/table/persons">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="521dc80b-0b1e-44a0-8367-be98c5743488">
+          <filtering>
+            <filter text="" />
+          </filtering>
+          <column-attributes>
+            <column name="ctid" enabled="false" position="-1" />
+          </column-attributes>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://916a2ae9-1c30-496c-b2b5-a1817c49d8c0/database/postgres/schema/public/table/persons">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="521dc80b-0b1e-44a0-8367-be98c5743488">
+          <filtering>
+            <filter text="" />
+          </filtering>
+          <column-attributes>
+            <column name="ctid" enabled="false" position="-1" />
+          </column-attributes>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://916a2ae9-1c30-496c-b2b5-a1817c49d8c0/database/postgres/schema/public/table/persons">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="521dc80b-0b1e-44a0-8367-be98c5743488">
+          <filtering>
+            <filter text="" />
+          </filtering>
+          <column-attributes>
+            <column name="ctid" enabled="false" position="-1" />
+          </column-attributes>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://916a2ae9-1c30-496c-b2b5-a1817c49d8c0/database/postgres/schema/public/table/persons">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="521dc80b-0b1e-44a0-8367-be98c5743488">
+          <filtering>
+            <filter text="" />
+          </filtering>
+          <column-attributes>
+            <column name="ctid" enabled="false" position="-1" />
+          </column-attributes>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Clieent/src/Email.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="423">
+          <caret line="112" column="17" lean-forward="true" selection-start-line="112" selection-start-column="17" selection-end-line="112" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#921#922#0" expanded="true" />
+            <element signature="e#948#949#0" expanded="true" />
+            <element signature="e#2073#2074#0" expanded="true" />
+            <element signature="e#2114#2115#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Email.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="118" column="1" selection-start-line="118" selection-start-column="1" selection-end-line="118" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EmailAthunticator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="9" lean-forward="true" selection-end-line="17" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Email.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="9" selection-end-line="17" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Signup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="46" column="37" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://916a2ae9-1c30-496c-b2b5-a1817c49d8c0/database/postgres/schema/public/table/pms">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="521dc80b-0b1e-44a0-8367-be98c5743488">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://916a2ae9-1c30-496c-b2b5-a1817c49d8c0/database/postgres/schema/public/table/pms">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="521dc80b-0b1e-44a0-8367-be98c5743488">
+          <filtering>
+            <filter text="" />
+          </filtering>
         </state>
       </provider>
     </entry>
@@ -842,7 +936,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>lib</last-edited>
+          <last-edited>lib1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -30,25 +30,28 @@ public class Signup implements Initializable {
     @FXML
     Button back;
 
+
+    public static String email;
+    public static String fisrtname ;
+    public static String lastname ;
+    public static String username ;
+    public static String password;
+    public static String phonenumber ;
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         register.setOnAction(event -> {
-            String fisrtname = txtffirstname.getText();
-            String lastname = txtflastname.getText();
-            String username = txtfusername.getText();
-            String password = txtfpassword.getText();
-            String email = txtfemail.getText();
-            String phonenumber = txtfphonenumber.getText();
-            Person person = new Person(fisrtname, lastname, username, password, email, phonenumber);
+            fisrtname = txtffirstname.getText();
+            lastname = txtflastname.getText();
+            username = txtfusername.getText();
+            password = txtfpassword.getText();
+              email = txtfemail.getText();
+              phonenumber = txtfphonenumber.getText();
             try {
-                PersonDB personDB = new PersonDB();
-                personDB.addPerson(person);
-                Server.stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("Menu.fxml"))));
-
-
-            } catch (Exception e) {
+                Server.stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("Email.fxml"))));
+            } catch (IOException e) {
                 e.printStackTrace();
             }
+
 
         });
 
