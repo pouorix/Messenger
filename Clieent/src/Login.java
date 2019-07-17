@@ -32,6 +32,7 @@ public static String opusername;
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
+        final String secretKey = "elmoskey";
 
         login.setOnAction(event -> {
             username=txtfusername.getText();
@@ -42,7 +43,7 @@ public static String opusername;
                 if(personDB.getPerson(username).isEmpty())
                     usernameisincorrect.setText("Username is incorrect");
                 else {
-                    if (!(personDB.getPerson(username).get(3) .equals(password))) {
+                    if (!(personDB.getPerson(username).get(3) .equals(AES.encrypt(password, secretKey) ) ) ) {
                         passwordisincorrect.setText("Password is incorrect");
                     }
                     else {
@@ -75,6 +76,7 @@ public static String opusername;
         txtfpassword.setOnKeyPressed(new EventHandler<KeyEvent>() {
             @Override
             public void handle(KeyEvent ke) {
+                final String secretKey = "elmoskey";
                 if(ke.getCode().equals(KeyCode.ENTER)){
                     username=txtfusername.getText();
                     String password=txtfpassword.getText();
@@ -84,7 +86,7 @@ public static String opusername;
                         if(personDB.getPerson(username).isEmpty())
                             usernameisincorrect.setText("Username is incorrect");
                         else {
-                            if (!(personDB.getPerson(username).get(3) .equals(password))) {
+                            if (!(personDB.getPerson(username).get(3) .equals(AES.encrypt(password, secretKey) ))) {
                                 passwordisincorrect.setText("Password is incorrect");
                             }
                             else {
