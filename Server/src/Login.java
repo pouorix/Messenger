@@ -89,7 +89,7 @@ public static String opusername;
                             else {
                                 // Server.dataOutput.writeUTF(username);
                                 lonDB londb=new lonDB();
-                                londb.changecl(username);
+                                londb.changesl(username);
                                 Server.stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("SearchANDHistory.fxml"))));
 
 //                        new Thread(() -> {

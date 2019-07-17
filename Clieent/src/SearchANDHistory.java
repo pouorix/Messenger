@@ -69,7 +69,7 @@ public class SearchANDHistory implements Initializable {
                                 //  Server.dataOutput.writeUTF(username);
 
                                 lonDB londb=new lonDB();
-                                londb.changess(username);
+                                londb.changecs(username);
 //                        new Thread(()-> {
 //                            try {
                                 //   opsearchusername = Server.dataInput.readUTF();

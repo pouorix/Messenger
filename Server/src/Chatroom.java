@@ -1,22 +1,34 @@
 import com.vdurmont.emoji.Emoji;
 import com.vdurmont.emoji.EmojiParser;
+import javafx.beans.value.ChangeListener;
+import javafx.beans.value.ObservableValue;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Scene;
+import javafx.scene.control.*;
 import javafx.scene.control.Button;
 import javafx.scene.control.Menu;
+import javafx.scene.control.MenuItem;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import javafx.scene.input.KeyCode;
 import javafx.scene.input.KeyEvent;
-import javafx.scene.control.MenuItem;
+import javafx.scene.input.MouseEvent;
+import javafx.scene.text.Text;
+import javafx.stage.FileChooser;
+import sun.rmi.runtime.Log;
 
+import java.awt.*;
+import java.io.File;
 import java.io.IOException;
 import java.net.URL;
 import java.util.Date;
 import java.util.ResourceBundle;
+
+
+
 
 public class Chatroom implements Initializable {
     public static String pm;
@@ -42,8 +54,34 @@ public class Chatroom implements Initializable {
     MenuItem angry;
     @FXML
     MenuItem fear;
+    @FXML
+            Button file;
+    @FXML
+    ListView filetable;
+    @FXML
+    Button open;
+    @FXML
+    Button filebtn;
+    @FXML
+    Text filetxt;
 
+public static void openfile(String directory){
+
+    File file = new File(directory);
+    Desktop desktop = Desktop.getDesktop();
+
+    if(file.exists()) {
+        try {
+            desktop.open(file);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+}
     // public static pmsDB
+
+
 
     String ssmile = "\uD83D\uDE02";
     String scry = "\uD83D\uDE2D";
@@ -53,7 +91,91 @@ public class Chatroom implements Initializable {
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        //  pmsDB pmsdb=null;
+        Date date = new Date();
+        String tarikh=date.toString();
+        filetable.getSelectionModel().getSelectedItem();
+        filetable.getSelectionModel().selectedItemProperty().addListener(new ChangeListener<String>() {
+            @Override
+            public void changed(ObservableValue<? extends String> observable, String oldValue, String newValue) {
+                openfile(newValue);
+//                System.out.println("ListView selection changed from oldValue = "
+//                        + oldValue + " to newValue = " + newValue);
+            }
+        });
+
+//       //. int i = 1;
+//            filebtn.setOnAction(event -> {
+//
+//              //  filetxt.setText(String.valueOf(i++));
+//
+//            });
+//
+//        open.setOnAction(event -> {
+//            fileDB filedb= null;
+//            try {
+//                filedb = new fileDB();
+//                System.out.println(filedb.showfile(SearchANDHistory.username, Login.username).get(filedb.showfile(SearchANDHistory.username, Login.username).size()-1));
+//                openfile(filedb.showfile(SearchANDHistory.username, Login.username).get(filedb.showfile(SearchANDHistory.username, Login.username).size()-1));
+//            } catch (Exception e) {
+//                e.printStackTrace();
+//            }
+//
+//        });
+//        System.out.println(filetable.getSelectionModel().getSelectedItems().toString());
+//        openfile(filetable.getSelectionModel().getSelectedItems().toString());
+
+
+        //fileDB filedb= null;
+
+
+        new Thread(()-> {
+            try {
+                fileDB filedb = new fileDB();
+
+                for (int i = 0; i < filedb.showfile(SearchANDHistory.username, Login.username).size(); i++)
+                        filetable.getItems().add(filedb.showfile(SearchANDHistory.username, Login.username).get(i));
+
+             //   fileDB filedb = new fileDB();
+                int filetablesize=filedb.showfile(SearchANDHistory.username, Login.username).size();
+              //  filetablesize=filedb.showfile(SearchANDHistory.username, Login.username).size();
+                while (true) {
+                    // for (int i = 0; i < filedb.showfile(SearchANDHistory.username, Login.username).size(); i++)
+                    if (filedb.showfile(SearchANDHistory.username, Login.username).size() != filetablesize) {
+                        filetable.getItems().clear();
+                        for (int j = 0; j < filedb.showfile(SearchANDHistory.username, Login.username).size(); j++)
+                            filetable.getItems().add(filedb.showfile(SearchANDHistory.username, Login.username).get(j));
+                        //  filetable.getItems().add(filedb.showfile(SearchANDHistory.username, Login.username).get(i));
+                        filetablesize++;
+                    }
+                }
+            } catch (Exception e) {
+
+
+            }
+        }).start();
+
+
+
+
+      //  fileDB finalFiledb = filedb;
+        file.setOnAction(event -> {
+            FileChooser fc = new FileChooser();
+            File selectedFile = fc.showOpenDialog(null);
+            if (selectedFile != null) {
+                String filee = selectedFile.getPath();
+              //  System.out.println(filee);
+                try {
+                    fileDB filedb = new fileDB();
+                    filedb.add(Login.username,SearchANDHistory.username,filee,tarikh);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+                //   System.out.println(photo);
+
+            }
+        });
+
+
         smile.setOnAction(event -> {
             pminput.appendText( EmojiParser.parseToUnicode(ssmile));
         });
@@ -76,8 +198,7 @@ public class Chatroom implements Initializable {
         System.out.println();
 
 
-        Date date = new Date();
-        String tarikh=date.toString();
+
         // smile.setOnAction();
 
         try {
@@ -200,8 +321,8 @@ public class Chatroom implements Initializable {
             try {
                 lonDB londb=new lonDB();
                 while (true) {
-                   // opm.appendText("hi");
-                   // opm.appendText(Server.dataInput.readUTF());
+                    // opm.appendText("hi");
+                    // opm.appendText(Server.dataInput.readUTF());
                     //   pm=pminput.getText();
 //                mypm.setText(Server.dataInput.readUTF()+"\n");
 
@@ -212,7 +333,7 @@ public class Chatroom implements Initializable {
 
                     if (londb.showcl().equals(londb.showss()) && londb.showcs().equals(londb.showsl())) {
 
-                      opm.appendText(Server.dataInput.readUTF());
+                        opm.appendText(Server.dataInput.readUTF());
 
                         mypm.appendText("\n\n");
                     }

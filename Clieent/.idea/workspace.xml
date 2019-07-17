@@ -2,17 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80814fcd-d0d0-4aa3-bc23-e1d0ac7d19df" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Chatroom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chatroom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/916a2ae9-1c30-496c-b2b5-a1817c49d8c0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/916a2ae9-1c30-496c-b2b5-a1817c49d8c0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/916a2ae9-1c30-496c-b2b5-a1817c49d8c0/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/916a2ae9-1c30-496c-b2b5-a1817c49d8c0/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Server/Chatroom$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/Chatroom$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Server/Chatroom.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/Chatroom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Server/Chatroom.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/Chatroom.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Server/SearchANDHistory$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/SearchANDHistory$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chatroom.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chatroom.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chatroom.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SearchANDHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchANDHistory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Signup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Signup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/.idea/dataSources/916a2ae9-1c30-496c-b2b5-a1817c49d8c0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/.idea/dataSources/916a2ae9-1c30-496c-b2b5-a1817c49d8c0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/.idea/dataSources/916a2ae9-1c30-496c-b2b5-a1817c49d8c0/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/.idea/dataSources/916a2ae9-1c30-496c-b2b5-a1817c49d8c0/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Server/out/production/Server/Chatroom$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/out/production/Server/Chatroom$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Server/out/production/Server/Chatroom.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/out/production/Server/Chatroom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/out/production/Server/Chatroom.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/out/production/Server/Chatroom.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/out/production/Server/Login$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/out/production/Server/Login$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/src/Chatroom.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/Chatroom.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Server/src/Chatroom.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/Chatroom.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Server/src/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/src/SearchANDHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/SearchANDHistory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/src/Signup.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/Signup.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,6 +79,15 @@
         <item name="postgres: database" type="162271b6:PgImplModel$Database" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="file: table" type="69fad909:PgImplModel$LocalTable" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
         <item name="lon: table" type="69fad909:PgImplModel$LocalTable" />
       </path>
       <path>
@@ -98,11 +116,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SearchANDHistory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+            <state relative-caret-position="96">
+              <caret line="64" column="28" selection-start-line="64" selection-start-column="28" selection-end-line="64" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,26 +128,45 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lonDB.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Chatroom.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="138" column="17" lean-forward="true" selection-start-line="138" selection-start-column="17" selection-end-line="138" selection-end-column="17" />
+            <state relative-caret-position="147">
+              <caret line="238" column="29" selection-start-line="238" selection-start-column="29" selection-end-line="238" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://916a2ae9-1c30-496c-b2b5-a1817c49d8c0/database/postgres/schema/public/table/file">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state projectRestartId="a3647f76-8f11-4f34-a111-5caadd92b347">
+              <filtering />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fileDB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="846">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Chatroom.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="702">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
             </state>
           </provider>
         </entry>
@@ -137,8 +174,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Login.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="116" selection-start-line="116" selection-end-line="116" />
+            <state relative-caret-position="222">
+              <caret line="50" column="38" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -166,19 +203,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Email.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="38" selection-start-column="38" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Signup.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
+            <state relative-caret-position="1170">
               <caret line="67" column="47" selection-start-line="67" selection-start-column="47" selection-end-line="67" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -188,23 +215,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/EmailAthunticator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#380#381#0" expanded="true" />
-                <element signature="e#439#440#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
+            <state relative-caret-position="414">
               <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -216,7 +229,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ouserinfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
+            <state relative-caret-position="378">
               <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -239,9 +252,14 @@
     <findStrings>
       <find>opsearchhistory</find>
       <find>opsearchusername</find>
+      <find>CLient</find>
+      <find>client</find>
+      <find>lonDB</find>
       <find>Server</find>
     </findStrings>
     <replaceStrings>
+      <replace>CLient</replace>
+      <replace>client</replace>
       <replace>Client</replace>
     </replaceStrings>
   </component>
@@ -283,12 +301,13 @@
         <option value="$PROJECT_DIR$/src/EmailAthunticator.java" />
         <option value="$PROJECT_DIR$/src/Email.fxml" />
         <option value="$PROJECT_DIR$/src/Email.java" />
-        <option value="$PROJECT_DIR$/src/Chatroom.fxml" />
         <option value="$PROJECT_DIR$/src/lonDB.java" />
-        <option value="$PROJECT_DIR$/src/Chatroom.java" />
         <option value="$PROJECT_DIR$/src/Login.java" />
         <option value="$PROJECT_DIR$/src/Signup.java" />
+        <option value="$PROJECT_DIR$/src/fileDB.java" />
+        <option value="$PROJECT_DIR$/src/Chatroom.fxml" />
         <option value="$PROJECT_DIR$/src/SearchANDHistory.java" />
+        <option value="$PROJECT_DIR$/src/Chatroom.java" />
       </list>
     </option>
   </component>
@@ -311,8 +330,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -329,6 +346,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -339,13 +358,17 @@
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
@@ -411,12 +434,15 @@
       <workItem from="1563199783189" duration="389000" />
       <workItem from="1563259840439" duration="8777000" />
       <workItem from="1563276252665" duration="5021000" />
-      <workItem from="1563294970756" duration="4818000" />
+      <workItem from="1563294970756" duration="9973000" />
+      <workItem from="1563346999385" duration="2366000" />
+      <workItem from="1563349372117" duration="108000" />
+      <workItem from="1563349485112" duration="4976000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96826000" />
+    <option name="totallyTimeSpent" value="109431000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -431,7 +457,7 @@
     <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32166302" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34463894" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -440,8 +466,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49840087" visible="true" weight="0.2549234" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49840087" visible="true" weight="0.25382933" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934355" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
@@ -460,7 +486,7 @@
       <window_info anchor="right" id="Maven" order="5" weight="0.32928804" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" weight="0.21991247" />
+      <window_info anchor="right" id="Database" order="8" visible="true" weight="0.15098469" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -652,37 +678,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chatroom.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Email.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1404">
           <caret line="97" column="26" selection-start-line="97" selection-start-column="26" selection-end-line="97" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://916a2ae9-1c30-496c-b2b5-a1817c49d8c0/database/postgres/schema/public/table/lon">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="11c25a3f-ba4e-4d0e-bcff-ebb40f968909">
-          <filtering>
-            <filter text="" />
-          </filtering>
-          <column-attributes>
-            <column name="ctid" enabled="false" position="-1" />
-          </column-attributes>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://916a2ae9-1c30-496c-b2b5-a1817c49d8c0/database/postgres/schema/public/table/lon">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="776bc9d9-4b24-4def-a179-47668a14f130">
-          <filtering />
         </state>
       </provider>
     </entry>
@@ -706,40 +705,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ouserinfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="116" selection-start-line="116" selection-end-line="116" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="das://916a2ae9-1c30-496c-b2b5-a1817c49d8c0/database/postgres/schema/public/table/lon">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state projectRestartId="9e9f6010-a8de-4077-8715-b099201ce715">
           <filtering />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lonDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://916a2ae9-1c30-496c-b2b5-a1817c49d8c0/database/postgres/schema/public/table/file">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="a3647f76-8f11-4f34-a111-5caadd92b347">
+          <filtering />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fileDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="846">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chatroom.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>
@@ -762,7 +766,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Signup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
+        <state relative-caret-position="1170">
           <caret line="67" column="47" selection-start-line="67" selection-start-column="47" selection-end-line="67" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -770,20 +774,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lonDB.java">
+    <entry file="file://$PROJECT_DIR$/src/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        <state relative-caret-position="414">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chatroom.java">
+    <entry file="file://$PROJECT_DIR$/src/ouserinfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="138" column="17" lean-forward="true" selection-start-line="138" selection-start-column="17" selection-end-line="138" selection-end-column="17" />
+        <state relative-caret-position="378">
+          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="50" column="38" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -792,8 +806,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SearchANDHistory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+        <state relative-caret-position="96">
+          <caret line="64" column="28" selection-start-line="64" selection-start-column="28" selection-end-line="64" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chatroom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="238" column="29" selection-start-line="238" selection-start-column="29" selection-end-line="238" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.image.*?>
 <?import javafx.scene.text.*?>
 <?import javafx.scene.control.MenuItem.*?>
 <?import java.lang.*?>
@@ -31,5 +32,8 @@
             <MenuItem fx:id="fear" mnemonicParsing="false" text="Fear" />
         </items>
       </MenuButton>
+      <Button fx:id="file" layoutX="60.0" layoutY="338.0" mnemonicParsing="false" text="File" />
+      <Accordion layoutX="297.0" layoutY="257.0" />
+      <ListView fx:id="filetable" layoutX="499.0" layoutY="60.0" prefHeight="200.0" prefWidth="81.0" />
    </children>
 </AnchorPane>
