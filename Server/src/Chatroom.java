@@ -126,6 +126,7 @@ public class Chatroom implements Initializable {
 //            mypm.setText(pm +"\n");
                                 mypm.appendText( pm + "\n");
                                 opm.appendText("\n\n");
+                                pminput.setText("");
                             } catch (IOException e) {
                                 e.printStackTrace();
                             } catch (Exception e) {
@@ -154,6 +155,7 @@ public class Chatroom implements Initializable {
 //            mypm.setText(pm +"\n");
                         mypm.appendText( pm + "\n");
                         opm.appendText("\n\n");
+                        pminput.setText("");
                     } catch (IOException e) {
                         e.printStackTrace();
                     } catch (Exception e) {
@@ -180,6 +182,10 @@ public class Chatroom implements Initializable {
                 e.printStackTrace();
             }
         });
+
+
+
+
 
         back.setOnAction(event -> {
             try {

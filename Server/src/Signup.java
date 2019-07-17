@@ -1,3 +1,4 @@
+import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
@@ -8,6 +9,9 @@ import java.awt.*;
 import java.io.IOException;
 import java.net.URL;
 import javafx.scene.control.TextField;
+import javafx.scene.input.KeyCode;
+import javafx.scene.input.KeyEvent;
+
 import java.util.ResourceBundle;
 
 public class Signup implements Initializable {
@@ -54,6 +58,30 @@ public class Signup implements Initializable {
 
 
         });
+
+
+
+        txtfemail.setOnKeyPressed(new EventHandler<KeyEvent>() {
+            @Override
+            public void handle(KeyEvent ke) {
+                if(ke.getCode().equals(KeyCode.ENTER)){
+                    fisrtname = txtffirstname.getText();
+                    lastname = txtflastname.getText();
+                    username = txtfusername.getText();
+                    password = txtfpassword.getText();
+                    email = txtfemail.getText();
+                    phonenumber = txtfphonenumber.getText();
+                    try {
+                        Server.stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("Email.fxml"))));
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+
+                }
+
+            }
+        });
+
 
 
         back.setOnAction(event -> {

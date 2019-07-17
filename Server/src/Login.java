@@ -1,9 +1,12 @@
+import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
+import javafx.scene.input.KeyCode;
+import javafx.scene.input.KeyEvent;
 import javafx.scene.text.Text;
 
 import java.io.IOException;
@@ -66,6 +69,49 @@ public static String opusername;
             }
 
         });
+
+
+        txtfpassword.setOnKeyPressed(new EventHandler<KeyEvent>() {
+            @Override
+            public void handle(KeyEvent ke) {
+                if(ke.getCode().equals(KeyCode.ENTER)){
+                    username=txtfusername.getText();
+                    String password=txtfpassword.getText();
+                    try {
+                        PersonDB personDB=new PersonDB();
+
+                        if(personDB.getPerson(username).isEmpty())
+                            usernameisincorrect.setText("Username is incorrect");
+                        else {
+                            if (!(personDB.getPerson(username).get(3) .equals(password))) {
+                                passwordisincorrect.setText("Password is incorrect");
+                            }
+                            else {
+                                // Server.dataOutput.writeUTF(username);
+                                lonDB londb=new lonDB();
+                                londb.changecl(username);
+                                Server.stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("SearchANDHistory.fxml"))));
+
+//                        new Thread(() -> {
+//                            try {
+                                //opusername = Server.dataInput.readUTF();
+//                            } catch (IOException e) {
+//                                e.printStackTrace();
+//                            }
+//                        }).start();
+
+                                //System.out.println(opusername);
+                            }
+                        }
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+                }
+
+            }
+        });
+
+        
         back.setOnAction(event -> {
             try {
                 Server.stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("Menu.fxml"))));

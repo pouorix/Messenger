@@ -125,6 +125,7 @@ public class Chatroom implements Initializable {
 //            mypm.setText(pm +"\n");
                                 mypm.appendText( pm + "\n");
                                 opm.appendText("\n\n");
+                                pminput.setText("");
                             } catch (IOException e) {
                                 e.printStackTrace();
                             } catch (Exception e) {
@@ -153,6 +154,7 @@ public class Chatroom implements Initializable {
 //            mypm.setText(pm +"\n");
                         mypm.appendText( pm + "\n");
                         opm.appendText("\n\n");
+                        pminput.setText("");
                     } catch (IOException e) {
                         e.printStackTrace();
                     } catch (Exception e) {
@@ -203,26 +205,7 @@ public class Chatroom implements Initializable {
 
 
                     if (londb.showcl().equals(londb.showss()) && londb.showcs().equals(londb.showsl())) {
-
-//                        if(Client.dataInput.readUTF().equals("\uD83D\uDE02"))
-//                            opm.appendText(EmojiParser.parseToUnicode(ssmile));
-//
-//                         if(Client.dataInput.readUTF().equals("\uD83D\uDE2D"))
-//                            opm.appendText(EmojiParser.parseToUnicode(scry));
-//
-//                         if(Client.dataInput.readUTF().equals("❤"))
-//                            opm.appendText(EmojiParser.parseToUnicode(sheart));
-//
-//                         if(Client.dataInput.readUTF().equals("\uD83D\uDE31"))
-//                            opm.appendText(EmojiParser.parseToUnicode(sfear));
-//
-//
-//                         if(Client.dataInput.readUTF().equals("\uD83D\uDE21"))
-//                            opm.appendText(EmojiParser.parseToUnicode(sangry));
-
-                     //   if(!(Client.dataInput.readUTF().equals("\uD83D\uDE02")) && !(Client.dataInput.readUTF().equals("\uD83D\uDE2D")) && !(Client.dataInput.readUTF().equals("❤")) && !(Client.dataInput.readUTF().equals("\uD83D\uDE31"))&&  !(Client.dataInput.readUTF().equals("\uD83D\uDE21")))
                         opm.appendText(Client.dataInput.readUTF());
-
                         mypm.appendText("\n\n");
                     }
                 }
