@@ -5,15 +5,29 @@ public class Person {
     private String password;
     private String email;
     private String phonenumber;
+    private String photo;
 
-    public Person(String firstname, String lastname, String username, String password, String email, String phonenumber) {
+    public Person(String firstname, String lastname, String username, String password, String email, String phonenumber, String photo) {
         this.firstname = firstname;
         this.lastname = lastname;
         this.username = username;
         this.password = password;
         this.email = email;
         this.phonenumber = phonenumber;
+        this.photo = photo;
+
+
     }
+
+
+    public String getPhoto() {
+        return photo;
+    }
+
+    public void setPhoto(String photo) {
+        this.photo = photo;
+    }
+
 
     public String getFirstname() {
         return firstname;

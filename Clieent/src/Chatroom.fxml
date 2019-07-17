@@ -10,33 +10,33 @@
 <?import javafx.scene.layout.*?>
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: lightblue; -fx-border-color: lightblue;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Chatroom">
-   <children>
-      <TextField fx:id="pminput" layoutX="121.0" layoutY="338.0" />
-      <Button fx:id="send" layoutX="469.0" layoutY="338.0" mnemonicParsing="false" text="Send" />
-      <Button fx:id="info" layoutX="340.0" layoutY="14.0" mnemonicParsing="false" text="info" />
-      <Button fx:id="back" layoutX="465.0" layoutY="27.0" mnemonicParsing="false" text="&lt;--" />
-      <TextArea fx:id="opm" layoutX="277.0" layoutY="63.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="194.0" prefWidth="176.0" style="-fx-background-color: white; -fx-border-color: white;">
-         <font>
-            <Font size="16.0" />
-         </font></TextArea>
-      <TextArea fx:id="mypm" layoutX="131.0" layoutY="63.0" prefHeight="194.0" prefWidth="169.0" style="-fx-background-color: white; -fx-border-color: white;">
-         <font>
-            <Font size="16.0" />
-         </font></TextArea>
-      <MenuButton fx:id="menu" layoutX="277.0" layoutY="338.0" mnemonicParsing="false" text="❤">
-         <items>
-            <MenuItem fx:id="smile" mnemonicParsing="false" text="☺" />
-            <MenuItem fx:id="cry" mnemonicParsing="false" text="cry" />
-            <MenuItem fx:id="heart" mnemonicParsing="false" text="❤" />
-            <MenuItem fx:id="angry" mnemonicParsing="false" text="Angry" />
-            <MenuItem fx:id="fear" mnemonicParsing="false" text="Fear" />
-         </items>
-      </MenuButton>
-      <Button fx:id="file" layoutX="60.0" layoutY="338.0" mnemonicParsing="false" text="File" />
-      <Accordion layoutX="297.0" layoutY="257.0" />
-      <ListView fx:id="filetable" layoutX="499.0" layoutY="60.0" prefHeight="200.0" prefWidth="81.0" />
-      <Text layoutX="507.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="oponnet file" />
-      <ListView fx:id="filetable1" layoutX="15.0" layoutY="54.0" prefHeight="200.0" prefWidth="81.0" />
-      <Text layoutX="24.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="my file" />
-   </children>
+    <children>
+        <TextField fx:id="pminput" layoutX="121.0" layoutY="338.0" />
+        <Button fx:id="send" layoutX="469.0" layoutY="338.0" mnemonicParsing="false" />
+        <Button fx:id="info" layoutX="340.0" layoutY="14.0" mnemonicParsing="false" />
+        <Button fx:id="back" layoutX="465.0" layoutY="27.0" mnemonicParsing="false" />
+        <TextArea fx:id="opm" layoutX="277.0" layoutY="63.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="194.0" prefWidth="176.0" style="-fx-background-color: white; -fx-border-color: white;">
+            <font>
+                <Font size="16.0" />
+            </font></TextArea>
+        <TextArea fx:id="mypm" layoutX="131.0" layoutY="63.0" prefHeight="194.0" prefWidth="169.0" style="-fx-background-color: white; -fx-border-color: white;">
+            <font>
+                <Font size="16.0" />
+            </font></TextArea>
+        <MenuButton fx:id="menu" layoutX="277.0" layoutY="338.0" mnemonicParsing="false" text="❤">
+            <items>
+                <MenuItem fx:id="smile" mnemonicParsing="false" text="☺" />
+                <MenuItem fx:id="cry" mnemonicParsing="false" text="cry" />
+                <MenuItem fx:id="heart" mnemonicParsing="false" text="❤" />
+                <MenuItem fx:id="angry" mnemonicParsing="false" text="Angry" />
+                <MenuItem fx:id="fear" mnemonicParsing="false" text="Fear" />
+            </items>
+        </MenuButton>
+        <Button fx:id="file" layoutX="60.0" layoutY="338.0" mnemonicParsing="false" />
+        <Accordion layoutX="297.0" layoutY="257.0" />
+        <ListView fx:id="filetable" layoutX="499.0" layoutY="60.0" prefHeight="200.0" prefWidth="81.0" />
+        <Text layoutX="507.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="oponnet file" />
+        <ListView fx:id="filetable1" layoutX="15.0" layoutY="54.0" prefHeight="200.0" prefWidth="81.0" />
+        <Text layoutX="24.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="my file" />
+    </children>
 </AnchorPane>

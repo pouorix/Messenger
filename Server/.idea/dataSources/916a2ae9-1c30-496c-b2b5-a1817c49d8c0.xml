@@ -9,7 +9,7 @@
       <Comment>default administrative connection database</Comment>
       <StateNumber>554</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>1625</IntrospectionStateNumber>
+      <IntrospectionStateNumber>1795</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
     </database>
@@ -81,7 +81,7 @@
       <Comment>standard public schema</Comment>
       <StateNumber>352</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>1626</IntrospectionStateNumber>
+      <IntrospectionStateNumber>1796</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
@@ -162,7 +162,7 @@
     <table id="25" parent="14" name="persons">
       <ObjectId>16421</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>673</StateNumber>
+      <StateNumber>1774</StateNumber>
     </table>
     <table id="26" parent="14" name="pms">
       <ObjectId>16464</ObjectId>
@@ -271,34 +271,40 @@
       <StateNumber>638</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="44" parent="26" name="empty">
+    <column id="44" parent="25" name="picturedirectory">
+      <Position>8</Position>
+      <DataType>varchar(200)|0s</DataType>
+      <StateNumber>1774</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="45" parent="26" name="empty">
       <Position>1</Position>
       <DataType>varchar(10)|0s</DataType>
       <StateNumber>803</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="45" parent="26" name="sender">
+    <column id="46" parent="26" name="sender">
       <Position>2</Position>
       <DataType>varchar(20)|0s</DataType>
       <StateNumber>803</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="46" parent="26" name="reciver">
+    <column id="47" parent="26" name="reciver">
       <Position>3</Position>
       <DataType>varchar(20)|0s</DataType>
       <StateNumber>803</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="47" parent="26" name="text">
+    <column id="48" parent="26" name="text">
       <Position>4</Position>
       <DataType>varchar(100)|0s</DataType>
       <StateNumber>803</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="48" parent="26" name="date">
+    <column id="49" parent="26" name="datess">
       <Position>5</Position>
       <DataType>varchar(100)|0s</DataType>
-      <StateNumber>856</StateNumber>
+      <StateNumber>1756</StateNumber>
       <TypeId>1043</TypeId>
     </column>
   </database-model>

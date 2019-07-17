@@ -52,6 +52,12 @@
       <TextField fx:id="txtfphonenumber" layoutX="218.0" layoutY="274.0" />
       <TextField fx:id="txtfemail" layoutX="218.0" layoutY="324.0" />
       <Button fx:id="back" layoutX="23.0" layoutY="14.0" mnemonicParsing="false" text="&lt;--" />
+      <Text fontSmoothingType="LCD" layoutX="14.0" layoutY="383.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Profile Picture : " wrappingWidth="253.0">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <Button fx:id="picture" layoutX="218.0" layoutY="362.0" mnemonicParsing="false" text="Chose " />
 
    </children>
 </AnchorPane>

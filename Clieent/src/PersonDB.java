@@ -15,7 +15,7 @@ public class PersonDB {
     }
 
     public void addPerson(Person person) throws Exception{
-        preparedStatement = connection.prepareStatement("insert into persons values (default ,?,?,?,?,?,?)");
+        preparedStatement = connection.prepareStatement("insert into persons values (default ,?,?,?,?,?,?,?)");
         preparedStatement.setString(3, person.getUsername());
         //security
 
@@ -31,6 +31,7 @@ public class PersonDB {
         preparedStatement.setString(2,person.getLastname());
         preparedStatement.setString(5,person.getEmail());
         preparedStatement.setString(6,person.getPhonenumber());
+        preparedStatement.setString(7,person.getPhoto());
         preparedStatement.executeUpdate();
     }
 //
@@ -56,6 +57,7 @@ public class PersonDB {
             info.add(resultSet.getString("password"));
             info.add(resultSet.getString("email"));
             info.add(resultSet.getString("phonenumber"));
+            info.add(resultSet.getString("picturedirectory"));
         }
     return info;
     }

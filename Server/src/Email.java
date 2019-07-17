@@ -4,10 +4,14 @@ import javafx.fxml.Initializable;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.scene.text.Text;
 import javax.mail.*;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.net.URL;
 import java.util.Date;
@@ -93,12 +97,24 @@ public class Email implements Initializable {
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
+        try {
+            Image image = new Image(new FileInputStream("C:\\Users\\Acer\\Desktop\\AP Messengers - Copy - Copy\\icons\\icons\\email.png"));
+            ImageView imageView = new ImageView(image);
+            imageView.setFitHeight(20);
+            imageView.setFitWidth(20);
+            next.setGraphic(imageView);
+
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+
+        }
+
         String c = createCode();
         sendMail(Signup.email, "your code", c);
         next.setOnAction(event -> {
             if (c.equals(email.getText())) {
                 try {
-                    Person person = new Person(Signup.fisrtname,Signup.lastname, Signup.username, Signup.password, Signup.email, Signup.phonenumber);
+                    Person person = new Person(Signup.fisrtname,Signup.lastname, Signup.username, Signup.password, Signup.email, Signup.phonenumber,Signup.photo);
                     try {
                         PersonDB personDB = new PersonDB();
                         personDB.addPerson(person);

@@ -13,6 +13,8 @@ import javafx.scene.control.Menu;
 import javafx.scene.control.MenuItem;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.scene.input.KeyCode;
 import javafx.scene.input.KeyEvent;
 import javafx.scene.input.MouseEvent;
@@ -22,12 +24,12 @@ import sun.rmi.runtime.Log;
 
 import java.awt.*;
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.net.URL;
 import java.util.Date;
 import java.util.ResourceBundle;
-
-
 
 
 public class Chatroom implements Initializable {
@@ -251,11 +253,15 @@ public class Chatroom implements Initializable {
                 if(i<pmsdb.showpm(Login.username,SearchANDHistory.username).size()) {
 
                     mypm.appendText(pmsdb.showpm(Login.username, SearchANDHistory.username).get(i) + "\n");
+                    String zaman[]=pmsdb.showdate(Login.username, SearchANDHistory.username).get(i).split(" ");
+                    mypm.appendText(zaman[3]+"\n\n");
                     opm.appendText("\n\n");
                 }
                 if(i<pmsdb.showpm(SearchANDHistory.username,Login.username).size()) {
 
                     opm.appendText(pmsdb.showpm(SearchANDHistory.username, Login.username).get(i) + "\n");
+                    String zaman[]=pmsdb.showdate(SearchANDHistory.username,Login.username).get(i).split(" ");
+                    opm.appendText(zaman[3]+"\n\n");
                     mypm.appendText("\n\n");
                 }
 //                System.out.println("Login username : "+ Login.username);
@@ -338,6 +344,56 @@ public class Chatroom implements Initializable {
         } catch (Exception e) {
             e.printStackTrace();
         }
+
+
+        try {
+            Image  image = new Image(new FileInputStream("C:\\Users\\Acer\\Desktop\\AP Messengers - Copy - Copy\\icons\\icons\\back.png"));
+            ImageView imageView = new ImageView(image);
+            imageView.setFitHeight(20);
+            imageView.setFitWidth(20);
+            back.setGraphic(imageView);
+
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+
+        }
+        try {
+            Image  image = new Image(new FileInputStream("C:\\Users\\Acer\\Desktop\\AP Messengers - Copy - Copy\\icons\\icons\\send.png"));
+            ImageView imageView = new ImageView(image);
+            imageView.setFitHeight(20);
+            imageView.setFitWidth(20);
+            send.setGraphic(imageView);
+
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+
+        }
+        try {
+            Image  image = new Image(new FileInputStream("C:\\Users\\Acer\\Desktop\\AP Messengers - Copy - Copy\\icons\\icons\\file.png"));
+            ImageView imageView = new ImageView(image);
+            imageView.setFitHeight(20);
+            imageView.setFitWidth(20);
+            file.setGraphic(imageView);
+
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+
+        }
+        try {
+            PersonDB persondb=new PersonDB();
+            Image  image = new Image(new FileInputStream(persondb.getPerson(SearchANDHistory.username).get(6)));
+            ImageView imageView = new ImageView(image);
+            imageView.setFitHeight(50);
+            imageView.setFitWidth(50);
+            info.setGraphic(imageView);
+
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
 
         info.setOnAction(event -> {
             try {

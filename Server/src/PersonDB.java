@@ -15,7 +15,7 @@ public class PersonDB {
     }
 
     public void addPerson(Person person) throws Exception{
-        preparedStatement = connection.prepareStatement("insert into persons values (default ,?,?,?,?,?,?)");
+        preparedStatement = connection.prepareStatement("insert into persons values (default ,?,?,?,?,?,?,?)");
         preparedStatement.setString(3, person.getUsername());
         //security
 
@@ -31,9 +31,10 @@ public class PersonDB {
         preparedStatement.setString(2,person.getLastname());
         preparedStatement.setString(5,person.getEmail());
         preparedStatement.setString(6,person.getPhonenumber());
+        preparedStatement.setString(7,person.getPhoto());
         preparedStatement.executeUpdate();
     }
-//
+    //
     public  ArrayList<String> getPersonsusername() throws Exception{
         preparedStatement = connection.prepareStatement("select username from persons");
         ResultSet resultSet = preparedStatement.executeQuery();
@@ -56,8 +57,9 @@ public class PersonDB {
             info.add(resultSet.getString("password"));
             info.add(resultSet.getString("email"));
             info.add(resultSet.getString("phonenumber"));
+            info.add(resultSet.getString("picturedirectory"));
         }
-    return info;
+        return info;
     }
 
     public void changePass(String username, String newPass) throws Exception{
@@ -108,13 +110,13 @@ public class PersonDB {
 
 
 
-//
+    //
     public void deletePerson(String username) throws Exception{
         preparedStatement = connection.prepareStatement("delete from persons where username = ?");
         preparedStatement.setString(1, username);
         preparedStatement.executeUpdate();
     }
-//
+    //
     public void close() throws Exception{
         preparedStatement.close();
         connection.close();
