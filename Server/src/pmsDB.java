@@ -31,6 +31,19 @@ public class pmsDB {
         return info;
     }
 
+
+    public ArrayList<String> showdate(String username1, String username2) throws SQLException {
+        preparedStatement = connection.prepareStatement("select text from pms where sender = ? AND reciver = ?   ");
+        preparedStatement.setString(1, username1);
+        preparedStatement.setString(2, username2);
+        ArrayList<String> info = new ArrayList<>();
+        ResultSet resultSet = preparedStatement.executeQuery();
+        while (resultSet.next()) {
+            info.add(resultSet.getString("text"));
+        }
+        return info;
+    }
+
     public String getsender(String text) throws SQLException {
         preparedStatement = connection.prepareStatement("select sender from pms where text = ?   ");
         preparedStatement.setString(1, text);

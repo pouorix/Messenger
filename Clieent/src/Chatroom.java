@@ -58,12 +58,6 @@ public class Chatroom implements Initializable {
     Button file;
     @FXML
     ListView filetable;
-    @FXML
-    Button open;
-    @FXML
-    Button filebtn;
-    @FXML
-    Text filetxt;
 
     public static void openfile(String directory){
 
@@ -93,6 +87,8 @@ public class Chatroom implements Initializable {
     public void initialize(URL location, ResourceBundle resources) {
         Date date = new Date();
         String tarikh=date.toString();
+        String time[]=tarikh.split(" ");
+
         filetable.getSelectionModel().getSelectedItem();
         filetable.getSelectionModel().selectedItemProperty().addListener(new ChangeListener<String>() {
             @Override
@@ -240,13 +236,19 @@ public class Chatroom implements Initializable {
                         new Thread(()->{
 
                             try {
+                                Date date = new Date();
+                                String tarikh=date.toString();
+                                String time[]=tarikh.split(" ");
+
                                 pm = pminput.getText();
                                 pmsdb.addpm(Login.username,SearchANDHistory.username,pm,tarikh);
-                                Client.dataOutput.writeUTF( pm+"\n");
+                                Client.dataOutput.writeUTF( pm);
 //            mypm.setText(pm);
 //            mypm.setText(pm +"\n");
                                 mypm.appendText( pm + "\n");
-                                opm.appendText("\n\n");
+                                mypm.appendText("("+ time[3]+")" + "\n\n");
+
+                                opm.appendText("\n\n\n");
                                 pminput.setText("");
                             } catch (IOException e) {
                                 e.printStackTrace();
@@ -269,13 +271,15 @@ public class Chatroom implements Initializable {
                 new Thread(()->{
 
                     try {
+
                         pm = pminput.getText();
                         pmsdb.addpm(Login.username,SearchANDHistory.username,pm,tarikh);
-                        Client.dataOutput.writeUTF( pm+"\n");
+                        Client.dataOutput.writeUTF( pm);
 //            mypm.setText(pm);
 //            mypm.setText(pm +"\n");
                         mypm.appendText( pm + "\n");
-                        opm.appendText("\n\n");
+                        mypm.appendText("("+ time[3]+")" + "\n\n");
+                        opm.appendText("\n\n\n");
                         pminput.setText("");
                     } catch (IOException e) {
                         e.printStackTrace();
@@ -333,9 +337,14 @@ public class Chatroom implements Initializable {
 
                     if (londb.showcl().equals(londb.showss()) && londb.showcs().equals(londb.showsl())) {
 
-                        opm.appendText(Client.dataInput.readUTF());
+                        opm.appendText(Client.dataInput.readUTF()+"\n");
+                        Date date1 = new Date();
+                        String tarikh1=date1.toString();
+                        String time1[]=tarikh1.split(" ");
 
-                        mypm.appendText("\n\n");
+                        opm.appendText("("+ time1[3]+")" + "\n\n");
+
+                        mypm.appendText("\n\n\n");
                     }
                 }
             } catch (IOException e) {
