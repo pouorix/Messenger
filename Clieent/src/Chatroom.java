@@ -58,6 +58,9 @@ public class Chatroom implements Initializable {
     Button file;
     @FXML
     ListView filetable;
+    @FXML
+    ListView filetable1;
+
 
     public static void openfile(String directory){
 
@@ -91,6 +94,17 @@ public class Chatroom implements Initializable {
 
         filetable.getSelectionModel().getSelectedItem();
         filetable.getSelectionModel().selectedItemProperty().addListener(new ChangeListener<String>() {
+            @Override
+            public void changed(ObservableValue<? extends String> observable, String oldValue, String newValue) {
+                openfile(newValue);
+//                System.out.println("ListView selection changed from oldValue = "
+//                        + oldValue + " to newValue = " + newValue);
+            }
+        });
+
+
+        filetable1.getSelectionModel().getSelectedItem();
+        filetable1.getSelectionModel().selectedItemProperty().addListener(new ChangeListener<String>() {
             @Override
             public void changed(ObservableValue<? extends String> observable, String oldValue, String newValue) {
                 openfile(newValue);
@@ -150,6 +164,32 @@ public class Chatroom implements Initializable {
             }
         }).start();
 
+
+        new Thread(()-> {
+            try {
+                fileDB filedb = new fileDB();
+
+                for (int i = 0; i < filedb.showfile( Login.username,SearchANDHistory.username).size(); i++)
+                    filetable1.getItems().add(filedb.showfile(Login.username,SearchANDHistory.username).get(i));
+
+                //   fileDB filedb = new fileDB();
+                int filetablesize=filedb.showfile(Login.username,SearchANDHistory.username).size();
+                //  filetablesize=filedb.showfile(SearchANDHistory.username, Login.username).size();
+                while (true) {
+                    // for (int i = 0; i < filedb.showfile(SearchANDHistory.username, Login.username).size(); i++)
+                    if (filedb.showfile(Login.username,SearchANDHistory.username).size() != filetablesize) {
+                        filetable1.getItems().clear();
+                        for (int j = 0; j < filedb.showfile(Login.username,SearchANDHistory.username).size(); j++)
+                            filetable1.getItems().add(filedb.showfile(Login.username,SearchANDHistory.username).get(j));
+                        //  filetable.getItems().add(filedb.showfile(SearchANDHistory.username, Login.username).get(i));
+                        filetablesize++;
+                    }
+                }
+            } catch (Exception e) {
+
+
+            }
+        }).start();
 
 
 

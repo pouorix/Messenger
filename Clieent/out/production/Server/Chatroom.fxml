@@ -15,11 +15,11 @@
       <Button fx:id="send" layoutX="469.0" layoutY="338.0" mnemonicParsing="false" text="Send" />
       <Button fx:id="info" layoutX="340.0" layoutY="14.0" mnemonicParsing="false" text="info" />
       <Button fx:id="back" layoutX="465.0" layoutY="27.0" mnemonicParsing="false" text="&lt;--" />
-      <TextArea fx:id="opm" layoutX="277.0" layoutY="63.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="194.0" prefWidth="200.0" style="-fx-background-color: white; -fx-border-color: white;">
+      <TextArea fx:id="opm" layoutX="277.0" layoutY="63.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="194.0" prefWidth="176.0" style="-fx-background-color: white; -fx-border-color: white;">
          <font>
             <Font size="16.0" />
          </font></TextArea>
-      <TextArea fx:id="mypm" layoutX="77.0" layoutY="63.0" prefHeight="194.0" prefWidth="200.0" style="-fx-background-color: white; -fx-border-color: white;">
+      <TextArea fx:id="mypm" layoutX="131.0" layoutY="63.0" prefHeight="194.0" prefWidth="169.0" style="-fx-background-color: white; -fx-border-color: white;">
          <font>
             <Font size="16.0" />
          </font></TextArea>
@@ -35,5 +35,8 @@
       <Button fx:id="file" layoutX="60.0" layoutY="338.0" mnemonicParsing="false" text="File" />
       <Accordion layoutX="297.0" layoutY="257.0" />
       <ListView fx:id="filetable" layoutX="499.0" layoutY="60.0" prefHeight="200.0" prefWidth="81.0" />
+      <Text layoutX="507.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="oponnet file" />
+      <ListView fx:id="filetable1" layoutX="15.0" layoutY="54.0" prefHeight="200.0" prefWidth="81.0" />
+      <Text layoutX="24.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="my file" />
    </children>
 </AnchorPane>

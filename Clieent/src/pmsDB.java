@@ -30,17 +30,7 @@ public class pmsDB {
         return info;
     }
 
-    public String getsender(String text) throws SQLException {
-        preparedStatement = connection.prepareStatement("select sender from pms where text = ?   ");
-        preparedStatement.setString(1, text);
-        ArrayList<String> info = new ArrayList<>();
-        ResultSet resultSet = preparedStatement.executeQuery();
-        String sender=null;
-        while (resultSet.next()) {
-            sender =  resultSet.getString("sender");
-        }
-        return sender;
-    }
+
 
 
 
