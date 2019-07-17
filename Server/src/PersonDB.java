@@ -17,7 +17,16 @@ public class PersonDB {
     public void addPerson(Person person) throws Exception{
         preparedStatement = connection.prepareStatement("insert into persons values (default ,?,?,?,?,?,?)");
         preparedStatement.setString(3, person.getUsername());
-        preparedStatement.setString(4,person.getPassword());
+        //security
+
+        final String secretKey = "elmoskey";
+
+        String originalString = person.getPassword();
+        String encryptedString = AES.encrypt(originalString, secretKey) ;
+
+
+        //security
+        preparedStatement.setString(4,encryptedString);
         preparedStatement.setString(1,person.getFirstname());
         preparedStatement.setString(2,person.getLastname());
         preparedStatement.setString(5,person.getEmail());

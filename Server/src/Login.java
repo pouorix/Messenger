@@ -32,6 +32,7 @@ public static String opusername;
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
+        final String secretKey = "elmoskey";
 
         login.setOnAction(event -> {
             username=txtfusername.getText();
@@ -42,26 +43,24 @@ public static String opusername;
                 if(personDB.getPerson(username).isEmpty())
                     usernameisincorrect.setText("Username is incorrect");
                 else {
-                    if (!(personDB.getPerson(username).get(3).equals(password))) {
+                    if (!(personDB.getPerson(username).get(3) .equals(AES.encrypt(password, secretKey) ) ) ) {
                         passwordisincorrect.setText("Password is incorrect");
-                    } else {
+                    }
+                    else {
+                       // Client.dataOutput.writeUTF(username);
+                        lonDB londb=new lonDB();
+                        londb.changecl(username);
+                        Client.stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("SearchANDHistory.fxml"))));
 
-
-//                        new Thread(()->{
+//                        new Thread(() -> {
 //                            try {
-                                lonDB londb=new lonDB();
-                                londb.changesl(username);
-
-                               // opusername = Server.dataInput.readUTF();
+                                //opusername = Client.dataInput.readUTF();
 //                            } catch (IOException e) {
 //                                e.printStackTrace();
 //                            }
 //                        }).start();
 
-
-                        // System.out.println(opusername);
-                        Server.stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("SearchANDHistory.fxml"))));
-                      //  Server.dataOutput.writeUTF(username);
+                        //System.out.println(opusername);
                     }
                 }
             } catch (Exception e) {
@@ -71,9 +70,13 @@ public static String opusername;
         });
 
 
+
+
+
         txtfpassword.setOnKeyPressed(new EventHandler<KeyEvent>() {
             @Override
             public void handle(KeyEvent ke) {
+                final String secretKey = "elmoskey";
                 if(ke.getCode().equals(KeyCode.ENTER)){
                     username=txtfusername.getText();
                     String password=txtfpassword.getText();
@@ -83,18 +86,18 @@ public static String opusername;
                         if(personDB.getPerson(username).isEmpty())
                             usernameisincorrect.setText("Username is incorrect");
                         else {
-                            if (!(personDB.getPerson(username).get(3) .equals(password))) {
+                            if (!(personDB.getPerson(username).get(3) .equals(AES.encrypt(password, secretKey) ))) {
                                 passwordisincorrect.setText("Password is incorrect");
                             }
                             else {
-                                // Server.dataOutput.writeUTF(username);
+                                // Client.dataOutput.writeUTF(username);
                                 lonDB londb=new lonDB();
                                 londb.changecl(username);
-                                Server.stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("SearchANDHistory.fxml"))));
+                                Client.stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("SearchANDHistory.fxml"))));
 
 //                        new Thread(() -> {
 //                            try {
-                                //opusername = Server.dataInput.readUTF();
+                                //opusername = Client.dataInput.readUTF();
 //                            } catch (IOException e) {
 //                                e.printStackTrace();
 //                            }
@@ -111,10 +114,14 @@ public static String opusername;
             }
         });
 
-        
+
+
+
+
+
         back.setOnAction(event -> {
             try {
-                Server.stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("Menu.fxml"))));
+                Client.stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("Menu.fxml"))));
             } catch (IOException e) {
                 e.printStackTrace();
             }
