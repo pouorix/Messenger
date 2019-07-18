@@ -42,8 +42,7 @@ public class Chatroom implements Initializable {
     Button send;
     @FXML
     Button info;
-    @FXML
-    Button back;
+
     @FXML
     TextArea opm;
     @FXML
@@ -347,17 +346,6 @@ public class Chatroom implements Initializable {
 
 
         try {
-            Image  image = new Image(new FileInputStream("C:\\Users\\Acer\\Desktop\\AP Messengers - Copy - Copy\\icons\\icons\\back.png"));
-            ImageView imageView = new ImageView(image);
-            imageView.setFitHeight(20);
-            imageView.setFitWidth(20);
-            back.setGraphic(imageView);
-
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-
-        }
-        try {
             Image  image = new Image(new FileInputStream("C:\\Users\\Acer\\Desktop\\AP Messengers - Copy - Copy\\icons\\icons\\send.png"));
             ImageView imageView = new ImageView(image);
             imageView.setFitHeight(20);
@@ -408,14 +396,7 @@ public class Chatroom implements Initializable {
 
 
 
-        back.setOnAction(event -> {
-            try {
-                Client.stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("SearhANDHIstory.fxml"))));
 
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-        });
 
         new Thread(()->{
             try {

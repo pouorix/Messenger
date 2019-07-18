@@ -9,21 +9,20 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: lightblue; -fx-border-color: lightblue;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Chatroom">
+<AnchorPane prefHeight="640.0" prefWidth="860.0" style="-fx-background-color: MEDIUMTURQUOISE; -fx-border-color: lightblue;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Chatroom">
    <children>
-      <TextField fx:id="pminput" layoutX="121.0" layoutY="338.0" />
-      <Button fx:id="send" layoutX="469.0" layoutY="338.0" mnemonicParsing="false" />
-      <Button fx:id="info" layoutX="340.0" layoutY="14.0" mnemonicParsing="false" />
-      <Button fx:id="back" layoutX="465.0" layoutY="27.0" mnemonicParsing="false" />
-      <TextArea fx:id="opm" layoutX="277.0" layoutY="63.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="194.0" prefWidth="176.0" style="-fx-background-color: white; -fx-border-color: white;">
+      <TextField fx:id="pminput" layoutX="198.0" layoutY="589.0" prefHeight="25.0" prefWidth="348.0" />
+      <Button fx:id="send" layoutX="623.0" layoutY="589.0" mnemonicParsing="false" />
+      <Button fx:id="info" layoutX="372.0" layoutY="33.0" mnemonicParsing="false" />
+      <TextArea fx:id="opm" layoutX="416.0" layoutY="112.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="436.0" prefWidth="177.0" style="-fx-background-color: white; -fx-border-color: white;">
          <font>
             <Font size="16.0" />
          </font></TextArea>
-      <TextArea fx:id="mypm" layoutX="131.0" layoutY="63.0" prefHeight="194.0" prefWidth="169.0" style="-fx-background-color: white; -fx-border-color: white;">
+      <TextArea fx:id="mypm" layoutX="229.0" layoutY="112.0" prefHeight="436.0" prefWidth="187.0" style="-fx-background-color: white; -fx-border-color: white;">
          <font>
             <Font size="16.0" />
          </font></TextArea>
-      <MenuButton fx:id="menu" layoutX="277.0" layoutY="338.0" mnemonicParsing="false" text="❤">
+      <MenuButton fx:id="menu" layoutX="558.0" layoutY="589.0" mnemonicParsing="false" text="❤">
         <items>
           <MenuItem fx:id="smile" mnemonicParsing="false" text="☺" />
           <MenuItem fx:id="cry" mnemonicParsing="false" text="cry" />
@@ -32,11 +31,17 @@
             <MenuItem fx:id="fear" mnemonicParsing="false" text="Fear" />
         </items>
       </MenuButton>
-      <Button fx:id="file" layoutX="60.0" layoutY="338.0" mnemonicParsing="false" />
+      <Button fx:id="file" layoutX="171.0" layoutY="589.0" mnemonicParsing="false" />
       <Accordion layoutX="297.0" layoutY="257.0" />
-      <ListView fx:id="filetable" layoutX="499.0" layoutY="60.0" prefHeight="200.0" prefWidth="81.0" />
-      <Text layoutX="507.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="oponnet file" />
-      <ListView fx:id="filetable1" layoutX="15.0" layoutY="54.0" prefHeight="200.0" prefWidth="81.0" />
-      <Text layoutX="24.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="my file" />
+      <ListView fx:id="filetable" layoutX="639.0" layoutY="112.0" prefHeight="436.0" prefWidth="202.0" />
+      <Text layoutX="695.0" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="oponnet file">
+         <font>
+            <Font size="20.0" />
+         </font></Text>
+      <ListView fx:id="filetable1" layoutY="112.0" prefHeight="436.0" prefWidth="187.0" />
+      <Text layoutX="51.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="my file" wrappingWidth="64.171875">
+         <font>
+            <Font size="20.0" />
+         </font></Text>
    </children>
 </AnchorPane>

@@ -7,11 +7,14 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Email">
+<AnchorPane prefHeight="162.0" prefWidth="450.0" style="-fx-background-color: KHAKI;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Email">
     <children>
-        <TextField fx:id="email" layoutX="264.0" layoutY="175.0" />
-        <Text layoutX="52.0" layoutY="192.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter your Verfication Code : " wrappingWidth="211.869140625" />
-        <Button fx:id="next" layoutX="245.0" layoutY="269.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="83.0" text="Next" />
-        <Text fx:id="status" layoutX="230.0" layoutY="223.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="237.0" />
+        <TextField fx:id="email" layoutX="233.0" layoutY="92.0" />
+        <Text layoutX="33.0" layoutY="110.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter your Verfication Code : " wrappingWidth="211.869140625">
+            <font>
+                <Font size="15.0" />
+            </font></Text>
+        <Button fx:id="next" layoutX="209.0" layoutY="145.0" mnemonicParsing="false" prefHeight="16.0" prefWidth="16.0" />
+        <Text fx:id="status" layoutX="245.0" layoutY="224.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="205.0" />
     </children>
 </AnchorPane>

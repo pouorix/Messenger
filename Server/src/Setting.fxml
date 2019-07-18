@@ -6,8 +6,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="setting">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: MEDIUMTURQUOISE;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="setting">
    <children>
       <Button fx:id="clnb" layoutX="24.0" layoutY="61.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="139.0" text="Change Lastname" />
       <Button fx:id="cfnb" layoutX="24.0" layoutY="23.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="139.0" text="Change Firstname" />

@@ -98,7 +98,7 @@ public class Email implements Initializable {
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         try {
-            Image image = new Image(new FileInputStream("C:\\Users\\Acer\\Desktop\\AP Messengers - Copy - Copy\\icons\\icons\\email.png"));
+            Image image = new Image(new FileInputStream("C:\\Users\\Acer\\Desktop\\AP Messengers - Copy - Copy\\icons\\icons\\next.png"));
             ImageView imageView = new ImageView(image);
             imageView.setFitHeight(20);
             imageView.setFitWidth(20);

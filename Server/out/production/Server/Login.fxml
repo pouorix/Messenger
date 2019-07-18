@@ -7,20 +7,20 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Login">
+<AnchorPane prefHeight="314.0" prefWidth="413.0" style="-fx-background-color: MEDIUMTURQUOISE;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Login">
    <children>
-      <Text layoutX="78.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username : " wrappingWidth="115.13671875">
+      <Text layoutX="32.0" layoutY="106.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username : " wrappingWidth="115.13671875">
          <font>
             <Font size="22.0" />
          </font>
       </Text>
-      <Text layoutX="78.0" layoutY="161.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password :" wrappingWidth="115.13671875">
+      <Text layoutX="32.0" layoutY="160.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password :" wrappingWidth="115.13671875">
          <font>
             <Font size="22.0" />
          </font>
       </Text>
-      <TextField fx:id="txtfusername" layoutX="241.0" layoutY="85.0" />
-      <Button fx:id="login" layoutX="233.0" layoutY="243.0" mnemonicParsing="false" prefHeight="79.0" prefWidth="135.0" text="Login">
+      <TextField fx:id="txtfusername" layoutX="196.0" layoutY="84.0" />
+      <Button fx:id="login" layoutX="165.0" layoutY="213.0" mnemonicParsing="false" prefHeight="16.0" prefWidth="42.0">
          <font>
             <Font size="31.0" />
          </font>
@@ -31,7 +31,7 @@
          </font>
       </Text>
       <Text fx:id="usernameisincorrect" layoutX="245.0" layoutY="128.0" strokeType="OUTSIDE" strokeWidth="0.0" />
-      <Button fx:id="back" layoutX="24.0" layoutY="20.0" mnemonicParsing="false" text="&lt;--" />
-      <PasswordField fx:id="txtfpassword" layoutX="241.0" layoutY="139.0" />
+      <Button fx:id="back" layoutX="24.0" layoutY="20.0" mnemonicParsing="false" prefHeight="16.0" prefWidth="16.0" />
+      <PasswordField fx:id="txtfpassword" layoutX="196.0" layoutY="145.0" />
    </children>
 </AnchorPane>

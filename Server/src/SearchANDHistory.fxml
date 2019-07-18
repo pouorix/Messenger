@@ -8,18 +8,20 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SearchANDHistory">
+<AnchorPane prefHeight="212.0" prefWidth="425.0" style="-fx-background-color: MEDIUMTURQUOISE;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SearchANDHistory">
    <children>
-      <Text layoutX="211.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Start a New Chat ">
+      <Text layoutX="139.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Start a New Chat ">
          <font>
             <Font size="18.0" />
          </font>
       </Text>
       <TextField fx:id="userinput" layoutX="208.0" layoutY="66.0" />
-      <Text layoutX="38.0" layoutY="83.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Search a username : " />
-      <Button fx:id="next" layoutX="259.0" layoutY="118.0" mnemonicParsing="false" text="Next" />
-      <Line endX="100.0" layoutX="279.0" layoutY="153.0" startX="-100.0" />
+      <Text layoutX="14.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Search a username : ">
+         <font>
+            <Font size="20.0" />
+         </font></Text>
+      <Button fx:id="next" layoutX="188.0" layoutY="129.0" mnemonicParsing="false" />
       <Text fx:id="status" layoutX="223.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" />
-      <Button fx:id="setting" layoutX="504.0" layoutY="66.0" mnemonicParsing="false" text="Setting" />
+      <Button fx:id="setting" layoutX="376.0" layoutY="66.0" mnemonicParsing="false" />
    </children>
 </AnchorPane>
