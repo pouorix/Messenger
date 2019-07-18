@@ -95,7 +95,7 @@ public class SearchANDHistory implements Initializable {
                                 //  Server.dataOutput.writeUTF(username);
 
                                 lonDB londb=new lonDB();
-                                londb.changecs(username);
+                                londb.changess(username);
 //                        new Thread(()-> {
 //                            try {
                                 //   opsearchusername = Server.dataInput.readUTF();
@@ -144,7 +144,7 @@ public class SearchANDHistory implements Initializable {
                         boolian = 1;
 
                         lonDB londb=new lonDB();
-                        londb.changecs(username);
+                        londb.changess(username);
 
                         //Thread.sleep(1000);
 

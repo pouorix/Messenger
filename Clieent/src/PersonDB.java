@@ -64,7 +64,14 @@ public class PersonDB {
 
     public void changePass(String username, String newPass) throws Exception{
         preparedStatement = connection.prepareStatement("update persons set password = ? where username = ?");
-        preparedStatement.setString(1, newPass);
+
+//        final String secretKey = "elmoskey";
+//        String originalString = newPass;
+//        String encryptedString = AES.encrypt(originalString, secretKey) ;
+//
+
+        preparedStatement.setString(1, AES.encrypt(newPass,"elmoskey"));
+        //System.out.println(AES.decrypt(AES.encrypt(newPass,"emoskey"),""));
         preparedStatement.setString(2,username);
         preparedStatement.executeUpdate();
     }

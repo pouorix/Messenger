@@ -2,39 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80814fcd-d0d0-4aa3-bc23-e1d0ac7d19df" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Server/Chatroom.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/Chatroom.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Server/PersonDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/PersonDB.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Chatroom.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chatroom.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chatroom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chatroom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Email.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Email.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Email.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Login.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Menu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SearchANDHistory.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchANDHistory.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Setting.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Setting.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Signup.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Signup.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ouserinfo.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/ouserinfo.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PersonDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PersonDB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/out/production/Server/Chatroom$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/out/production/Server/Chatroom$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/out/production/Server/Chatroom$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/out/production/Server/Chatroom$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/out/production/Server/Chatroom$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/out/production/Server/Chatroom$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/out/production/Server/Chatroom.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/out/production/Server/Chatroom.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Server/out/production/Server/Chatroom.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/out/production/Server/Chatroom.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/out/production/Server/Email.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/out/production/Server/Email.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/out/production/Server/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/out/production/Server/Login.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/out/production/Server/Login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/out/production/Server/Login.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/out/production/Server/Menu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/out/production/Server/Menu.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/out/production/Server/SearchANDHistory.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/out/production/Server/SearchANDHistory.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/out/production/Server/Signup.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/out/production/Server/Signup.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/out/production/Server/Login$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/out/production/Server/Login$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/out/production/Server/PersonDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/out/production/Server/PersonDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/out/production/Server/SearchANDHistory$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/out/production/Server/SearchANDHistory$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/out/production/Server/SearchANDHistory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/out/production/Server/SearchANDHistory.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Server/src/Chatroom.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/Chatroom.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/src/Chatroom.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/Chatroom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/src/Email.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/Email.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/src/Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/Email.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/src/Login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/Login.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Server/src/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/src/Menu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/Menu.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/src/SearchANDHistory.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/SearchANDHistory.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/src/Setting.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/Setting.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/src/Signup.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/Signup.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/src/ouserinfo.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/ouserinfo.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/src/PersonDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/PersonDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/src/SearchANDHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/SearchANDHistory.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -129,11 +111,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/SearchANDHistory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+            <state relative-caret-position="180">
+              <caret line="126" lean-forward="true" selection-start-line="126" selection-end-line="126" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -142,20 +124,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Menu.fxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-            </state>
-          </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Signup.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="378">
-              <caret line="45" column="16" lean-forward="true" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
+              <caret line="45" column="16" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
               <folding>
                 <element signature="n#Text#0;n#children#0;n#AnchorPane#0;n#!!top" />
                 <element signature="n#Text#1;n#children#0;n#AnchorPane#0;n#!!top" />
@@ -166,73 +139,86 @@
               </folding>
             </state>
           </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Email.fxml">
+        <entry file="file://$PROJECT_DIR$/src/PersonDB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="1134">
+              <caret line="63" selection-start-line="63" selection-end-line="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Login.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2142">
+              <caret line="121" column="61" selection-start-line="121" selection-start-column="61" selection-end-line="121" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Login.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="573">
+            <state relative-caret-position="666">
               <caret line="37" selection-start-line="37" selection-end-line="37" />
             </state>
           </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SearchANDHistory.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="486">
               <caret line="27" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Setting.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="468">
               <caret line="26" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ouserinfo.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="432">
               <caret line="24" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Chatroom.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="573">
+            <state relative-caret-position="846">
               <caret line="47" selection-start-line="47" selection-end-line="47" />
             </state>
           </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Chatroom.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
+            <state relative-caret-position="7110">
               <caret line="404" column="36" selection-start-line="404" selection-start-column="36" selection-end-line="404" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -300,7 +286,6 @@
         <option value="$PROJECT_DIR$/src/Menu.java" />
         <option value="$PROJECT_DIR$/src/ouserinfo.java" />
         <option value="$PROJECT_DIR$/src/SearchANDHistory.java" />
-        <option value="$PROJECT_DIR$/src/PersonDB.java" />
         <option value="$PROJECT_DIR$/src/Signup.java" />
         <option value="$PROJECT_DIR$/src/Email.java" />
         <option value="$PROJECT_DIR$/src/Chatroom.java" />
@@ -312,6 +297,7 @@
         <option value="$PROJECT_DIR$/src/SearchANDHistory.fxml" />
         <option value="$PROJECT_DIR$/src/Setting.fxml" />
         <option value="$PROJECT_DIR$/src/Signup.fxml" />
+        <option value="$PROJECT_DIR$/src/PersonDB.java" />
       </list>
     </option>
   </component>
@@ -445,11 +431,13 @@
       <workItem from="1563363892339" duration="3094000" />
       <workItem from="1563368074995" duration="10649000" />
       <workItem from="1563406712367" duration="2978000" />
+      <workItem from="1563410133990" duration="1994000" />
+      <workItem from="1563412134286" duration="70000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127771000" />
+    <option name="totallyTimeSpent" value="129835000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -464,7 +452,7 @@
     <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24945295" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2603939" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -696,30 +684,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2322">
-          <caret line="146" selection-end-line="161" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Menu.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="792">
           <caret line="57" column="22" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PersonDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="50" column="21" selection-end-line="125" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -756,86 +724,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SearchANDHistory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chatroom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="404" column="36" selection-start-line="404" selection-start-column="36" selection-end-line="404" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chatroom.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="573">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Email.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Login.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="573">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Menu.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ouserinfo.fxml">
+    <entry file="file://$PROJECT_DIR$/src/Email.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="360">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SearchANDHistory.fxml">
+    <entry file="file://$PROJECT_DIR$/src/SearchANDHistory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="180">
+          <caret line="126" lean-forward="true" selection-start-line="126" selection-end-line="126" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Setting.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Signup.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
-          <caret line="45" column="16" lean-forward="true" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
+          <caret line="45" column="16" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
           <folding>
             <element signature="n#Text#0;n#children#0;n#AnchorPane#0;n#!!top" />
             <element signature="n#Text#1;n#children#0;n#AnchorPane#0;n#!!top" />
@@ -846,7 +765,76 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PersonDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1134">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2142">
+          <caret line="121" column="61" selection-start-line="121" selection-start-column="61" selection-end-line="121" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Login.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SearchANDHistory.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Setting.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ouserinfo.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chatroom.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="846">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chatroom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7110">
+          <caret line="404" column="36" selection-start-line="404" selection-start-column="36" selection-end-line="404" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

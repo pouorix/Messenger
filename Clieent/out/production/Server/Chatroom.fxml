@@ -31,7 +31,7 @@
                 <MenuItem fx:id="fear" mnemonicParsing="false" text="Fear" />
             </items>
         </MenuButton>
-        <Button fx:id="file" layoutX="171.0" layoutY="589.0" mnemonicParsing="false" />
+        <Button fx:id="file" layoutX="144.0" layoutY="589.0" mnemonicParsing="false" />
         <Accordion layoutX="297.0" layoutY="257.0" />
         <ListView fx:id="filetable" layoutX="639.0" layoutY="112.0" prefHeight="436.0" prefWidth="202.0" />
         <Text layoutX="695.0" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="oponnet file">
